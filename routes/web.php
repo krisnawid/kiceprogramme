@@ -14,6 +14,7 @@
 Route::get('/', function () { return view('welcome'); });
 Route::get('/admin/data-tables', function () { return view('admin.data-tables.index'); });
 Route::get('/admin', function () { return view('admin.index'); });
+Route::get('/user', function () { return view('user.index'); });
 
 ///admin/data-tables
 
