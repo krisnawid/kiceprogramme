@@ -11,6 +11,10 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', function () { return view('welcome'); });
+Route::get('/admin/data-tables', function () { return view('admin.data-tables.index'); });
+Route::get('/admin', function () { return view('admin.index'); });
+
+///admin/data-tables
+
+Route::get('/admin','AdminController@index');
