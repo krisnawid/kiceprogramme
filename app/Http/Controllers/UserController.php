@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use DB;
+use App\User;
 
 class UserController extends Controller
 {
@@ -18,8 +18,13 @@ class UserController extends Controller
     {
         # code...
         $this->validate($request, [
-            'buktiPembayaran' => 'file|image|mimes:jpeg,png,jpg|max:2048',
-            'fotoDiri' => 'file|image|mimes:jpeg,png,jpg|max:2048'
+            'firstName' => 'required',
+            'lastName' => 'required',
+            'email' => 'required',
+            'phone' => 'required',
+            'address' => 'required',
+            'buktiPembayaran' => 'file|image|mimes:jpeg,png,jpg|max:2048|required',
+            'fotoDiri' => 'file|image|mimes:jpeg,png,jpg|max:2048|required'
         ]);
 
         $filePembayaran = $request->file('buktiPembayaran');
@@ -32,8 +37,8 @@ class UserController extends Controller
 	    $tujuan_upload = 'data_file';
         $filePembayaran->move($tujuan_upload,$namaFilePembayaran);
         $fileFoto->move($tujuan_upload,$namaFileFoto);
-    
-        DB::table('registration')->insert([
+
+        User::create([
             'nama_depan' => $request->firstName,
             'nama_belakang' => $request->lastName,
             'email' => $request->email,
