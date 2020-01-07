@@ -35,14 +35,14 @@ Last Update: March 14, 2019
 --------------------------------------------- */
 /* Import Fonts & All CSS */
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700");
-@import url(css/bootstrap.min.css);
-@import url(css/animate.css);
-@import url(css/default-assets/classy-nav.css);
-@import url(css/owl.carousel.min.css);
-@import url(css/magnific-popup.css);
-@import url(css/font-awesome.min.css);
-@import url(css/material-design-iconic-font.min.css);
-@import url(css/style.css);
+@import url(css/user/bootstrap.min.css);
+@import url(css/user/animate.css);
+@import url(css/user/default-assets/classy-nav.css);
+@import url(css/user/owl.carousel.min.css);
+@import url(css/user/magnific-popup.css);
+@import url(css/user/font-awesome.min.css);
+@import url(css/user/material-design-iconic-font.min.css);
+@import url(css/user/style.css);
 /* :: 01.0 Reboot Area CSS */
 * {
   margin: 0;

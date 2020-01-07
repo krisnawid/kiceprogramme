@@ -4,7 +4,7 @@
     <title>Confer - Conference Event HTML Template</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="{{ asset('img/user/core-img/favicon.png') }}">
+    <link rel="icon" href="{{ asset('img/user/core-img/favicon.png') }}" type="image/x-icon">
 
     <!-- Stylesheet --> 
     <link rel="stylesheet" href="{{ asset('style.css') }}">
@@ -136,7 +136,7 @@
                         <p class="wow fadeInUp" data-wow-delay="300ms">The goals of this program is to increase social humanity awareness, learn about social enterprise and its impact, develop leadership and build the character through challenging situation, also to enhance youth’s leadership skills by giving them challenging intercultural environment and cultures through activities that cultivating teamwork, social awareness peaceful, and a sense of unity among young leaders.
 
                             At the end of this program, we want all delegates can make an impact in their homes, communities, among their peers and, most importantly, within themselves by leaving with a better knowledge from this program.</p>
-                        <a href="#" class="btn confer-btn mt-50 wow fadeInUp" data-wow-delay="300ms">Interested <i class="zmdi zmdi-long-arrow-right"></i></a>
+                        <a href="/joinus" class="btn confer-btn mt-50 wow fadeInUp" data-wow-delay="300ms">Join Us <i class="zmdi zmdi-long-arrow-right"></i></a>
                     </div>
                 </div>
 
