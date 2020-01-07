@@ -15,5 +15,6 @@ class User extends Model
     'phone',
     'alamat',
     'bukti_pembayaran',
-    'foto_peserta'];
+    'foto_peserta',
+    'status'];
 }
