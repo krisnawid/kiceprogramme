@@ -16,4 +16,10 @@ class AdminController extends Controller
         $data_user = \App\User::all();
         return view('admin.data-tables.index', ['data_user' => $data_user]);
     }
+
+    public function detaildatauser($id)
+    {
+        $user = \App\User::find($id);
+        return view('admin.data-tables.detailpeserta', ['user' => $user]);
+    }
 }

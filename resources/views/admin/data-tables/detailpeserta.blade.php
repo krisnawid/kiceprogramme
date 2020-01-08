@@ -25,7 +25,7 @@
                           <div class="container">
                               <form>
                                   <div class="form-group row">
-                                      <label for="staticEmail" class="col-sm-2 col-form-label">Registration ID : </label>
+                                      <label for="staticEmail" class="col-sm-2 col-form-label">Registration ID : {{$user->id}}</label>
                                       <div class="col-sm-10 ">
                                           <input type="text" rea  donly class="form-control-plaintext" id="staticEmail" value="1">
                                       </div>
@@ -33,43 +33,43 @@
                                   <div class="form-group row">
                                       <label for="staticEmail" class="col-sm-2 col-form-label">Nama Depan :</label>
                                       <div class="col-sm-10">
-                                          <input type="password" class="form-control" id="inputPassword" placeholder="Nama Depan Peserta" disabled>
+                                          <input type="password" class="form-control" id="inputPassword" placeholder="{{$user->nama_depan}}" disabled>
                                       </div>
                                   </div>
                                   <div class="form-group row">
                                       <label for="staticEmail" class="col-sm-2 col-form-label">Nama Nelakang : </label>
                                       <div class="col-sm-10">
-                                          <input type="password" class="form-control" id="inputPassword" placeholder="Nama Belakang Peserta" disabled>
+                                          <input type="password" class="form-control" id="inputPassword" placeholder="{{$user->nama_belakang}}" disabled>
                                       </div>
                                   </div>
                                   <div class="form-group row">
                                       <label for="staticEmail" class="col-sm-2 col-form-label">Email : </label>
                                       <div class="col-sm-10">
-                                          <input type="password" class="form-control" id="inputPassword" placeholder="Email Peserta" disabled>
+                                          <input type="password" class="form-control" id="inputPassword" placeholder="{{$user->email}}" disabled>
                                       </div>
                                   </div>
                                   <div class="form-group row">
                                       <label for="staticEmail" class="col-sm-2 col-form-label">Phone : </label>
                                       <div class="col-sm-10">
-                                          <input type="password" class="form-control" id="inputPassword" placeholder="No Telp Peserta" disabled>
+                                          <input type="password" class="form-control" id="inputPassword" placeholder="{{$user->phone}}" disabled>
                                       </div>
                                   </div>
                                   <div class="form-group row">
                                       <label for="staticEmail" class="col-sm-2 col-form-label">Alamat : </label>
                                       <div class="col-sm-10">
-                                          <input type="password" class="form-control" id="inputPassword" placeholder="Alamat Peserta" disabled>
+                                          <input type="password" class="form-control" id="inputPassword" placeholder="{{$user->alamat}}" disabled>
                                       </div>
                                   </div>
                                   <div class="form-group row">
                                       <label for="staticEmail" class="col-sm-2 col-form-label">Bukti Pembayaran : </label>
                                       <div class="col-sm-10">
-                                          <label for=""><img src="" style="width: 400px; height: 400px;" alt=""></label>
+                                          <label for=""><img src="{{ url('/data_file/'.$user->bukti_pembayaran) }}" style="width: 400px; height: 400px;" alt=""></label>
                                       </div>
                                   </div>
                                   <div class="form-group row">
                                       <label for="staticEmail" class="col-sm-2 col-form-label">Foto Peserta : </label>
                                       <div class="col-sm-10">
-                                          <label for=""><img src="" style="width: 400px; height: 400px;" alt=""></label>
+                                          <label for=""><img src="{{ url('/data_file/'.$user->foto_peserta) }}" style="width: 400px; height: 400px;" alt=""></label>
                                       </div>
                                   </div>
                               </form>

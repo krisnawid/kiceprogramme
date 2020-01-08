@@ -44,7 +44,7 @@
                     @else
                       <td><span class="badge badge-danger">Reject</span></td>
                     @endif
-                    <td><a href="#" class="btn btn-sm btn-primary">Detail</a></td>
+                    <td><a href="/admin/{{$user->id}}/detaildatauser" class="btn btn-sm btn-primary">Detail</a></td>
                   </tr>
                   @endforeach
                 </tbody>

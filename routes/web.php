@@ -16,6 +16,7 @@ Route::get('/joinus', 'UserController@registration');
 Route::post('/joinus/proses', 'UserController@prosesregistration');
 
 Route::get('/admin/data-tables', 'AdminController@dataregistration');
+Route::get('/admin/{id}/detaildatauser', 'AdminController@detaildatauser');
 Route::get('/admin', function () { return view('admin.index'); });
 
 ///admin/data-tables
