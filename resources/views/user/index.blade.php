@@ -5,14 +5,14 @@
      <section class="welcome-area">
         <div class="welcome-slides owl-carousel">
             <!-- Single Slide -->
-            <div class="single-welcome-slide bg-img bg-overlay jarallax" style="background-image: url({{ asset('img/user/bg-img/bangkok1.jpg') }});">
+            <div class="single-welcome-slide bg-img bg-overlay jarallax" style="background-image: url({{ asset('img/user/bg-img/malay1.jpg') }});">
                 <div class="container h-100">
                     <div class="row h-100 align-items-center">
                         <!-- Welcome Text -->
                         <div class="col-12">
                             <div class="welcome-text text-right">
-                                <h2 data-animation="fadeInUp" data-delay="300ms">Youth <br>Leader Expeditions</h2>
-                                <h6 data-animation="fadeInUp" data-delay="500ms">Bangkok, Thailand</h6>
+                                <h2 data-animation="fadeInUp" data-delay="300ms">Kakatoo International <br>Culture and Education Exchange</h2>
+                                <h6 data-animation="fadeInUp" data-delay="500ms">Kuala Lumpur, Malaysia</h6>
                                 <div class="hero-btn-group" data-animation="fadeInUp" data-delay="700ms">
                                     <a href="#" class="btn confer-btn">More Information <i class="zmdi zmdi-long-arrow-right"></i></a>
                                 </div>
@@ -90,7 +90,7 @@
                     <div class="single-speaker-area bg-gradient-overlay-2 wow fadeInUp" data-wow-delay="300ms">
                         <!-- Thumb -->
                         <div class="speaker-single-thumb">
-                            <img src="{{ asset('img/user/bg-img/tha11.jpg') }}" alt="">
+                            <img src="{{ asset('img/user/bg-img/mala3.jpg') }}" alt="">
                         </div>
                         <!-- Social Info -->
                         <div class="social-info">
@@ -128,7 +128,7 @@
                     <div class="single-speaker-area bg-gradient-overlay-2 wow fadeInUp" data-wow-delay="300ms">
                         <!-- Thumb -->
                         <div class="speaker-single-thumb">
-                            <img src="{{ asset('img/user/bg-img/tha12.jpg') }}" alt="">
+                            <img src="{{ asset('img/user/bg-img/cul1.jpg') }}" alt="">
                         </div>
                         <!-- Social Info -->
                         <div class="social-info">
@@ -147,7 +147,7 @@
                     <div class="single-speaker-area bg-gradient-overlay-2 wow fadeInUp" data-wow-delay="300ms">
                         <!-- Thumb -->
                         <div class="speaker-single-thumb">
-                            <img src="{{ asset('img/user/bg-img/tha15.jpg') }}" alt="">
+                            <img src="{{ asset('img/user/bg-img/malay2.jpg') }}" alt="">
                         </div>
                         <!-- Social Info -->
                         <div class="social-info">
@@ -179,6 +179,7 @@
                         </div>
                     </div>
                 </div>
+                <a href="/joinus" class="btn confer-btn">Register <i class="zmdi zmdi-long-arrow-right"></i></a>
             </div>
         </div>
     </section>
@@ -243,7 +244,7 @@
                                             <!-- Single Schedule Info -->
                                             <div class="schedule-time-place">
                                                 <p><i class="zmdi zmdi-time"></i> 12-14 Jan 2019</p>
-                                                <p><i class="zmdi zmdi-map"></i> Bangkok International Airport , Bangkok , Thailand</p>
+                                                <p><i class="zmdi zmdi-map"></i> Bandar Udara Internasional Kuala Lumpur , Selangor , Malaysia</p>
                                             </div>
                                         </div>
 
@@ -264,7 +265,7 @@
                                             <!-- Single Schedule Info -->
                                             <div class="schedule-time-place">
                                                 <p><i class="zmdi zmdi-time"></i> 12-14 Jan 2019</p>
-                                                <p><i class="zmdi zmdi-map"></i> Sunrise Hotel , Bangkok , Thailand</p>
+                                                <p><i class="zmdi zmdi-map"></i> SDoubleTree by Hilton Hotel , Kuala Lumpur , Malaysia</p>
                                             </div>
                                         </div>
 
@@ -285,7 +286,7 @@
                                             <!-- Single Schedule Info -->
                                             <div class="schedule-time-place">
                                                 <p><i class="zmdi zmdi-time"></i> 12-14 Jan 2019</p>
-                                                <p><i class="zmdi zmdi-map"></i> Sunrise Hotel , Bangkok , Thailand</p>
+                                                <p><i class="zmdi zmdi-map"></i> SDoubleTree by Hilton Hotel , Kuala Lumpur , Malaysia</p>
                                             </div>
                                         </div>
 
@@ -306,7 +307,7 @@
                                             <!-- Single Schedule Info -->
                                             <div class="schedule-time-place">
                                                 <p><i class="zmdi zmdi-time"></i> 12-14 Jan 2019</p>
-                                                <p><i class="zmdi zmdi-map"></i> Sunrise Hotel , Bangkok , Thailand</p>
+                                                <p><i class="zmdi zmdi-map"></i> SDoubleTree by Hilton Hotel , Kuala Lumpur , Malaysia</p>
                                             </div>
                                         </div>
 
@@ -327,7 +328,7 @@
                                             <!-- Single Schedule Info -->
                                             <div class="schedule-time-place">
                                                 <p><i class="zmdi zmdi-time"></i> 12-14 Jan 2019</p>
-                                                <p><i class="zmdi zmdi-map"></i>  Hall Sunrise Hotel , Bangkok , Thailand</p>
+                                                <p><i class="zmdi zmdi-map"></i>  Hall SDoubleTree Hotel , Kuala Lumpur , Malaysia</p>
                                             </div>
                                         </div>
 
@@ -348,7 +349,7 @@
                                             <!-- Single Schedule Info -->
                                             <div class="schedule-time-place">
                                                 <p><i class="zmdi zmdi-time"></i> 12-14 Jan 2019</p>
-                                                <p><i class="zmdi zmdi-map"></i> Sunrise Hotel , Bangkok , Thailand</p>
+                                                <p><i class="zmdi zmdi-map"></i> SDoubleTree by Hilton Hotel , Kuala Lumpur , Malaysia</p>
                                             </div>
                                         </div>
                                     </div>
@@ -378,7 +379,7 @@
                                             <!-- Single Schedule Info -->
                                             <div class="schedule-time-place">
                                                 <p><i class="zmdi zmdi-time"></i> 12-14 Jan 2019</p>
-                                                <p><i class="zmdi zmdi-map"></i> Sunrise Hotel , Bangkok , Thailand</p>
+                                                <p><i class="zmdi zmdi-map"></i> Hilton Hotel Restaurant, Kuala Lumpur , Malaysia</p>
                                             </div>
                                         </div>
 
@@ -399,7 +400,7 @@
                                             <!-- Single Schedule Info -->
                                             <div class="schedule-time-place">
                                                 <p><i class="zmdi zmdi-time"></i> 12-14 Jan 2019</p>
-                                                <p><i class="zmdi zmdi-map"></i> Ratchathewi, Bangkok, Thailand</p>
+                                                <p><i class="zmdi zmdi-map"></i> Jalan Tun Razak, Kuala Lumpur , Malaysia</p>
                                             </div>
                                         </div>
 
@@ -420,7 +421,7 @@
                                             <!-- Single Schedule Info -->
                                             <div class="schedule-time-place">
                                                 <p><i class="zmdi zmdi-time"></i> 12-14 Jan 2019</p>
-                                                <p><i class="zmdi zmdi-map"></i> Ratchathewi, Bangkok, Thailand</p>
+                                                <p><i class="zmdi zmdi-map"></i> Wilayah Persekutuan Putrajaya, Malaysia</p>
                                             </div>
                                         </div>
 
@@ -441,7 +442,7 @@
                                             <!-- Single Schedule Info -->
                                             <div class="schedule-time-place">
                                                 <p><i class="zmdi zmdi-time"></i> 12-14 Jan 2019</p>
-                                                <p><i class="zmdi zmdi-map"></i> Ratchathewi, Bangkok, Thailand</p>
+                                                <p><i class="zmdi zmdi-map"></i> Petaling Jaya, Selangor, Malaysia</p>
                                             </div>
                                         </div>
 
@@ -462,7 +463,7 @@
                                             <!-- Single Schedule Info -->
                                             <div class="schedule-time-place">
                                                 <p><i class="zmdi zmdi-time"></i> 12-14 Jan 2019</p>
-                                                <p><i class="zmdi zmdi-map"></i> Sunrise Hotel , Bangkok , Thailand</p>
+                                                <p><i class="zmdi zmdi-map"></i> SDoubleTree by Hilton Hotel , Kuala Lumpur , Malaysia</p>
                                             </div>
                                         </div>
 
@@ -483,7 +484,7 @@
                                             <!-- Single Schedule Info -->
                                             <div class="schedule-time-place">
                                                 <p><i class="zmdi zmdi-time"></i> 12-14 Jan 2019</p>
-                                                <p><i class="zmdi zmdi-map"></i> Sunrise Hotel , Bangkok , Thailand</p>
+                                                <p><i class="zmdi zmdi-map"></i> SDoubleTree by Hilton Hotel , Kuala Lumpur , Malaysia</p>
                                             </div>
                                         </div>
 
@@ -504,7 +505,7 @@
                                             <!-- Single Schedule Info -->
                                             <div class="schedule-time-place">
                                                 <p><i class="zmdi zmdi-time"></i> 12-14 Jan 2019</p>
-                                                <p><i class="zmdi zmdi-map"></i> Sunrise Hotel Restaurant , Bangkok , Thailand</p>
+                                                <p><i class="zmdi zmdi-map"></i> Hilton Hotel Restaurant, Kuala Lumpur , Malaysia</p>
                                             </div>
                                         </div>
 
@@ -525,7 +526,7 @@
                                             <!-- Single Schedule Info -->
                                             <div class="schedule-time-place">
                                                 <p><i class="zmdi zmdi-time"></i> 12-14 Jan 2019</p>
-                                                <p><i class="zmdi zmdi-map"></i> Sunrise Hotel , Bangkok , Thailand</p>
+                                                <p><i class="zmdi zmdi-map"></i> SDoubleTree by Hilton Hotel , Kuala Lumpur , Malaysia</p>
                                             </div>
                                         </div>
 
@@ -546,7 +547,7 @@
                                             <!-- Single Schedule Info -->
                                             <div class="schedule-time-place">
                                                 <p><i class="zmdi zmdi-time"></i> 12-14 Jan 2019</p>
-                                                <p><i class="zmdi zmdi-map"></i> Sunrise Hotel , Bangkok , Thailand</p>
+                                                <p><i class="zmdi zmdi-map"></i> SDoubleTree by Hilton Hotel , Kuala Lumpur , Malaysia</p>
                                             </div>
                                         </div>
                                     </div>                                        
@@ -576,7 +577,7 @@
                                             <!-- Single Schedule Info -->
                                             <div class="schedule-time-place">
                                                 <p><i class="zmdi zmdi-time"></i> 12-14 Jan 2019</p>
-                                                <p><i class="zmdi zmdi-map"></i> Sunrise Hotel , Bangkok , Thailand</p>
+                                                <p><i class="zmdi zmdi-map"></i> Hilton Hotel Restaurant, Kuala Lumpur , Malaysia</p>
                                             </div>
                                         </div>
 
@@ -590,14 +591,14 @@
                                                 </div>
                                                 <!-- Single Schedule Info -->
                                                 <div class="single-schedule-info">
-                                                    <h6>Bangkok Survival Challange</h6>
+                                                    <h6>Malay Survival Challange</h6>
                                                     <p>Time : <span>07.00 - 08.00</p>
                                                 </div>
                                             </div>
                                             <!-- Single Schedule Info -->
                                             <div class="schedule-time-place">
                                                 <p><i class="zmdi zmdi-time"></i> 12-14 Jan 2019</p>
-                                                <p><i class="zmdi zmdi-map"></i> Seri Thai, Khannayao, Babgkok, Thailand</p>
+                                                <p><i class="zmdi zmdi-map"></i> Pekan Sibu, Sibu, Sarawak, Malaysia</p>
                                             </div>
                                         </div>
 
@@ -618,7 +619,7 @@
                                             <!-- Single Schedule Info -->
                                             <div class="schedule-time-place">
                                                 <p><i class="zmdi zmdi-time"></i> 12-14 Jan 2019</p>
-                                                <p><i class="zmdi zmdi-map"></i> Seri Thai, Khannayao, Babgkok, Thailand</p>
+                                                <p><i class="zmdi zmdi-map"></i> Lorong Air Putih 86, Pahang, Malaysia</p>
                                             </div>
                                         </div>
 
@@ -639,7 +640,7 @@
                                             <!-- Single Schedule Info -->
                                             <div class="schedule-time-place">
                                                 <p><i class="zmdi zmdi-time"></i> 12-14 Jan 2019</p>
-                                                <p><i class="zmdi zmdi-map"></i>  Wang Mai, Pathum Wan District, Bangkok, Thailand</p>
+                                                <p><i class="zmdi zmdi-map"></i>  Ministry Of Tourism, Arts & Culture, Putra Jaya, Malaysia</p>
                                             </div>
                                         </div>
 
@@ -660,7 +661,7 @@
                                             <!-- Single Schedule Info -->
                                             <div class="schedule-time-place">
                                                 <p><i class="zmdi zmdi-time"></i> 12-14 Jan 2019</p>
-                                                <p><i class="zmdi zmdi-map"></i>  Sunrise Hotel, Bangkok, Thailand</p>
+                                                <p><i class="zmdi zmdi-map"></i>  SDoubleTree by Hilton Hotel , Kuala Lumpur , Malaysia</p>
                                             </div>
                                         </div>
                                     </div>
@@ -690,7 +691,7 @@
                                             <!-- Single Schedule Info -->
                                             <div class="schedule-time-place">
                                                 <p><i class="zmdi zmdi-time"></i> 12-14 Jan 2019</p>
-                                                <p><i class="zmdi zmdi-map"></i> Sunrise Hotel, Bangkok, Thailand</p>
+                                                <p><i class="zmdi zmdi-map"></i> Hilton Hotel Restaurant, Kuala Lumpur , Malaysia</p>
                                             </div>
                                         </div>
 
@@ -704,14 +705,14 @@
                                                 </div>
                                                 <!-- Single Schedule Info -->
                                                 <div class="single-schedule-info">
-                                                    <h6>Bangkok City Toure</h6>
+                                                    <h6>KL City Tour</h6>
                                                     <p>Time : <span>07.00 - 08.30</p>
                                                 </div>
                                             </div>
                                             <!-- Single Schedule Info -->
                                             <div class="schedule-time-place">
                                                 <p><i class="zmdi zmdi-time"></i> 12-14 Jan 2019</p>
-                                                <p><i class="zmdi zmdi-map"></i> Bangkok Mall , Bangkok, Thailand</p>
+                                                <p><i class="zmdi zmdi-map"></i> Kuala Lumpur Mall , Kuala Lumpur, Malaysia</p>
                                             </div>
                                         </div>
 
@@ -732,7 +733,7 @@
                                             <!-- Single Schedule Info -->
                                             <div class="schedule-time-place">
                                                 <p><i class="zmdi zmdi-time"></i> 12-14 Jan 2019</p>
-                                                <p><i class="zmdi zmdi-map"></i> International Airport, Bangkok, Thailand</p>
+                                                <p><i class="zmdi zmdi-map"></i> Bandar Udara Internasional Kuala Lumpur , Selangor , Malaysia</p>
                                             </div>
                                         </div>
 
@@ -784,14 +785,14 @@
                 <!-- Single Ticket Pricing Table -->
                 <div class="col-12 col-lg-4">
                     <div class="single-ticket-pricing-table text-center mb-100 wow fadeInUp" data-wow-delay="300ms">
-                        <h6 class="ticket-plan">First Payment</h6>
+                        <h6 class="ticket-plan">Fully Founded</h6>
                         <!-- Ticket Icon -->
                         <div class="ticket-icon">
                             <img src="{{ asset('img/user/core-img/p1.png') }}" alt="">
                         </div>
                         <br>
                         <h6>(16 Jan – 4 Feb)</h6>
-                        <h2 class="ticket-price"><span>Rp.</span>1.750K</h2>
+                        <h2 class="ticket-price"><span></span>Free</h2>
                         <!-- Ticket Pricing Table Details -->
                         <div class="ticket-pricing-table-details">
                             <p><i class="zmdi zmdi-check"></i> One Day Conference Ticket</p>
@@ -806,14 +807,14 @@
                 <!-- Single Ticket Pricing Table -->
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="single-ticket-pricing-table active text-center mb-100 wow fadeInUp" data-wow-delay="300ms">
-                        <h6 class="ticket-plan">Second Payment</h6>
+                        <h6 class="ticket-plan">Partial Founded</h6>
                         <!-- Ticket Icon -->
                         <div class="ticket-icon">
                             <img src="{{ asset('img/user/core-img/p2.png') }}" alt="">
                         </div>
                         <br>
                         <h6>(5 Feb-22 Feb)</h6>
-                        <h2 class="ticket-price"><span>Rp.</span>1.250K</h2>
+                        <h2 class="ticket-price"><span>Rp.</span>2.000K</h2>
                         <!-- Ticket Pricing Table Details -->
                         <div class="ticket-pricing-table-details">
                             <p><i class="zmdi zmdi-check"></i> One Day Conference Ticket</p>
@@ -828,14 +829,14 @@
                 <!-- Single Ticket Pricing Table -->
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="single-ticket-pricing-table text-center mb-100 wow fadeInUp" data-wow-delay="300ms">
-                        <h6 class="ticket-plan">Last Payment</h6>
+                        <h6 class="ticket-plan">Self Founded</h6>
                         <!-- Ticket Icon -->
                         <div class="ticket-icon">
                             <img src="{{ asset('img/user/core-img/p3.png') }}" alt="">
                         </div>
                         <br>
                         <h6>(22 Feb-3 Mar)</h6>
-                        <h2 class="ticket-price"><span>Rp.</span>1.000K</h2>
+                        <h2 class="ticket-price"><span>Rp.</span>3.500K</h2>
                         <!-- Ticket Pricing Table Details -->
                         <div class="ticket-pricing-table-details">
                             <p><i class="zmdi zmdi-check"></i> One Day Conference Ticket</p>
@@ -928,7 +929,6 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>

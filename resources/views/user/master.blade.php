@@ -33,7 +33,7 @@
                 <nav class="classy-navbar justify-content-between" id="conferNav">
 
                     <!-- Logo -->
-                    <a class="nav-brand" href="./index.html"><img src="{{ asset('img/user/core-img/logo.png') }}" alt="" id="rcorners"></a>
+                    <a class="nav-brand" href="/"><img src="{{ asset('img/user/core-img/logo.png') }}" alt="" style="width:140px; height:70px"></a>
 
                     <!-- Navbar Toggler -->
                     <div class="classy-navbar-toggler">
@@ -50,29 +50,8 @@
                         <div class="classynav">
                             <ul id="nav">
                                 <li class="active"><a href="index.html">Home</a></li>
-                                <li><a href="#">Pages</a>
-                                    <ul class="dropdown">
-                                        <li><a href="index.html">- Home</a></li>
-                                        <li><a href="about.html">- About Us</a></li>
-                                        <li><a href="speakers.html">- Speakears</a></li>
-                                        <li><a href="schedule.html">- Schedule</a></li>
-                                        <li><a href="tickets.html">- Tickets</a></li>
-                                        <li><a href="blog.html">- Blog</a></li>
-                                        <li><a href="single-blog.html">- Single Blog</a></li>
-                                        <li><a href="contact.html">- Contact</a></li>
-                                        <li><a href="#">- Dropdown</a>
-                                            <ul class="dropdown">
-                                                <li><a href="#">- Dropdown Item</a></li>
-                                                <li><a href="#">- Dropdown Item</a></li>
-                                                <li><a href="#">- Dropdown Item</a></li>
-                                                <li><a href="#">- Dropdown Item</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li><a href="speakers.html">Speakears</a></li>
-                                <li><a href="blog.html">Blog</a></li>
-                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="speakers.html">Syarat & Ketentuan</a></li>
+                                <li><a href="/joinus">Register</a></li>
                             </ul>
                         </div>
                         <!-- Nav End -->
@@ -89,6 +68,7 @@
     <footer class="footer-area bg-img bg-overlay-2">
         <!-- Copywrite Area -->
         <div class="container" style="margin-top: 25px;">
+        <hr style="border:2px solid black;">
                 <div class="row">
                     <!-- Copywrite Text -->
                     <div class="col-12 col-md-6">
