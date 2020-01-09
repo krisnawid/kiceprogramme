@@ -37,10 +37,10 @@
                     <td>{{$user->nama_depan}} {{$user->nama_belakang}}</td>
                     <td>{{$user->email}}</td>
                     {{-- <td><span class="badge badge-success">Success</span></td> --}}
-                    @if ($user->status == 0)
+                    @if ($user->status == 0 && $user->status == null)
                       <td><span class="badge badge-primary">Pending</span></td>    
                     @elseif ($user->status == 1)
-                      <td><span class="badge badge-success">Success</span></td>
+                      <td><span class="badge badge-success">Terkonfirmasi</span></td>
                     @else
                       <td><span class="badge badge-danger">Reject</span></td>
                     @endif
