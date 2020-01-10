@@ -441,7 +441,7 @@ input:required {
     font-weight: 400; }
   .section-heading-2 h4 {
     font-size: 38px;
-    color: #000000;
+    color: #ffffff;
     margin-bottom: 0;
     text-transform: uppercase;
     letter-spacing: 1px; }
@@ -2665,7 +2665,7 @@ input:required {
   border-radius: 0;
   border-bottom: 1px solid #4d507d;
   font-size: 15px;
-  text-transform: capitalize;
+  text-transform: inherit;
   color: #9293bc;
   padding-left: 0; }
   .form-group .form-control:focus {
@@ -2701,8 +2701,8 @@ input:required {
   margin-bottom: 30px; }
 
 .contact_input_area .form-group .form-control {
-  border-bottom: 1px solid #dbdcf1;
-  color: #9293bc; }
+  border-bottom: 1px solid #8687a3;
+  color: #000000; }
   .contact_input_area .form-group .form-control:active, .contact_input_area .form-group .form-control:focus {
     border-bottom-color: #5d5e8d; }
 .contact_input_area .form-group textarea.form-control {

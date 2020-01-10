@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\User;
+use Illuminate\Support\Facades\Mail;
+use App\Mail\KakatooEmail;
 
 class UserController extends Controller
 {
@@ -47,6 +49,9 @@ class UserController extends Controller
             'bukti_pembayaran' => $namaFilePembayaran,
             'foto_peserta' => $namaFileFoto
         ]);
+
+        Mail::to($request->email)->send(new KakatooEmail());
+
         return redirect('/');
     }
 }
