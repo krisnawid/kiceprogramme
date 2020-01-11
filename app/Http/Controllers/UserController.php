@@ -35,18 +35,18 @@ class UserController extends Controller
         $namaFilePembayaran = time()."_".$filePembayaran->getClientOriginalName();
         $namaFileFoto = time()."_".$fileFoto->getClientOriginalName();
 	    $tujuan_upload = 'data_file';
-        // $filePembayaran->move($tujuan_upload,$namaFilePembayaran);
-        // $fileFoto->move($tujuan_upload,$namaFileFoto);
+        $filePembayaran->move($tujuan_upload,$namaFilePembayaran);
+        $fileFoto->move($tujuan_upload,$namaFileFoto);
         
-        // User::create ([
-        //     'nama_depan' => $request->firstName,
-        //     'nama_belakang' => $request->lastName,
-        //     'email' => $request->email,
-        //     'phone' => $request->phone,
-        //     'alamat' => $request->address,
-        //     'bukti_pembayaran' => $namaFilePembayaran,
-        //     'foto_peserta' => $namaFileFoto
-        // ]);
+        User::create ([
+            'nama_depan' => $request->firstName,
+            'nama_belakang' => $request->lastName,
+            'email' => $request->email,
+            'phone' => $request->phone,
+            'alamat' => $request->address,
+            'bukti_pembayaran' => $namaFilePembayaran,
+            'foto_peserta' => $namaFileFoto
+        ]);
 
         $emailData = array(
             'namaDepan' => $request->firstName,
