@@ -20,10 +20,10 @@ class UserController extends Controller
     {
         # code...
         $this->validate($request, [
-            'firstName' => 'required',
-            'lastName' => 'required',
-            'email' => 'required',
-            'phone' => 'required',
+            'firstName' => 'required|alpha',
+            'lastName' => 'required|alpha',
+            'email' => 'required|email|unique:registration,email',
+            'whatsappNumber' => 'required|numeric',
             'address' => 'required',
             'buktiPembayaran' => 'file|image|mimes:jpeg,png,jpg|max:2048|required',
             'fotoDiri' => 'file|image|mimes:jpeg,png,jpg|max:2048|required'
@@ -42,7 +42,7 @@ class UserController extends Controller
             'nama_depan' => $request->firstName,
             'nama_belakang' => $request->lastName,
             'email' => $request->email,
-            'phone' => $request->phone,
+            'phone' => $request->whatsappNumber,
             'alamat' => $request->address,
             'bukti_pembayaran' => $namaFilePembayaran,
             'foto_peserta' => $namaFileFoto

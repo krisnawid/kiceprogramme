@@ -20,6 +20,16 @@
                 <!-- Contact Form -->
                 <div class="contact_from_area mb-100 clearfix wow fadeInUp" data-wow-delay="300ms">
                     <div class="contact_form">
+                        {{-- menampilkan error validasi --}}
+                        @if (count($errors) > 0)
+                        <div class="alert alert-danger">
+                            <ul>
+                                @foreach ($errors->all() as $error)
+                                    <li>{{ $error }}</li>
+                                @endforeach
+                            </ul>
+                        </div>
+                        @endif
                         <form action="/joinus/proses" method="post" id="main_contact_form" enctype="multipart/form-data">
                             {{ csrf_field() }}
                             <div class="contact_input_area">
@@ -28,31 +38,31 @@
                                     <!-- Form Group -->
                                     <div class="col-12 col-lg-6">
                                         <div class="form-group">
-                                            <input type="text" class="form-control mb-30" name="firstName" placeholder="First Name">
+                                            <input type="text" class="form-control mb-30" name="firstName" placeholder="First Name" value="{{ old('firstName') }}">
                                         </div>
                                     </div>
                                     <!-- Form Group -->
                                     <div class="col-12 col-lg-6">
                                         <div class="form-group">
-                                            <input type="text" class="form-control mb-30" name="lastName" placeholder="Last Name">
+                                            <input type="text" class="form-control mb-30" name="lastName" placeholder="Last Name" value="{{ old('lastName') }}">
                                         </div>
                                     </div>
                                     <!-- Form Group -->
                                     <div class="col-12 col-lg-6">
                                         <div class="form-group">
-                                            <input type="text" class="form-control mb-30" name="email" placeholder="E-mail">
+                                            <input type="text" class="form-control mb-30" name="email" placeholder="E-mail" value="{{ old('email') }}">
                                         </div>
                                     </div>
                                     <!-- Form Group -->
                                     <div class="col-12 col-lg-6">
                                         <div class="form-group">
-                                            <input type="text" class="form-control mb-30" name="phone" placeholder="Whatsapp Number">
+                                            <input type="text" class="form-control mb-30" name="whatsappNumber" placeholder="Whatsapp Number" value="{{ old('whatsappNumber') }}">
                                         </div>
                                     </div>
                                     <!-- Form Group -->
                                     <div class="col-12 col-lg-12">
                                         <div class="form-group">
-                                            <input type="text" class="form-control mb-30" name="address" placeholder="Your Address">
+                                            <input type="text" class="form-control mb-30" name="address" placeholder="Your Address" value="{{ old('address') }}">
                                         </div>
                                     </div>
                                     <!-- Form Group -->
