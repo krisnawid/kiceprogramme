@@ -10,15 +10,17 @@ use Illuminate\Queue\SerializesModels;
 class KakatooEmail extends Mailable
 {
     use Queueable, SerializesModels;
+    public $emailData;
 
     /**
      * Create a new message instance.
      *
      * @return void
      */
-    public function __construct()
+    public function __construct($emailData)
     {
         //
+        $this -> emailData = $emailData;
     }
 
     /**
@@ -28,12 +30,19 @@ class KakatooEmail extends Mailable
      */
     public function build()
     {
+
+        $data = array(
+                'namaDepan' => $this->emailData['namaDepan'],
+                'namaBelakang' => $this->emailData['namaBelakang']
+        );
+
         return $this->view('email.template')
-        ->subject('Kakatoosss')
+        ->from('admin@kakatoo.com')
+        ->subject('Kakatoo')
         ->with(
          [
-             'nama' => 'Kakatoo',
-             'website' => 'www.katoo.com',
-         ]);
+             'data' => $data
+         ])
+        ;
     }
 }

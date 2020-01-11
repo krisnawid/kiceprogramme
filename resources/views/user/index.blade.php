@@ -14,7 +14,7 @@
                                 <h2 data-animation="fadeInUp" data-delay="300ms">Kakatoo International <br>Culture and Education Exchange</h2>
                                 <h6 data-animation="fadeInUp" data-delay="500ms">Kuala Lumpur, Malaysia</h6>
                                 <div class="hero-btn-group" data-animation="fadeInUp" data-delay="700ms">
-                                    <a href="#" class="btn confer-btn">More Information <i class="zmdi zmdi-long-arrow-right"></i></a>
+                                    <a href="#program" class="btn confer-btn">More Information <i class="zmdi zmdi-long-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -26,7 +26,7 @@
     <!-- Welcome Area End -->
 
     <!-- About Us And Countdown Area Start -->
-    <section class="about-us-countdown-area section-padding-100-0" id="about">
+    <section class="about-us-countdown-area section-padding-100-0" id="program">
         <div class="container">
             <div class="row align-items-center">
                 <!-- About Content -->
@@ -179,8 +179,17 @@
                         </div>
                     </div>
                 </div>
-                <a href="/joinus" class="btn confer-btn">Register <i class="zmdi zmdi-long-arrow-right"></i></a>
+                
+
+                <div class="col-12 col-md-6 col-lg-4"></div>
+
+                <div class="col-12 col-md-6 col-lg-4" style="text-align: center">
+                    <a href="/joinus" class="btn register-btn">Register <i class="zmdi zmdi-long-arrow-right"></i></a>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4"><div>
             </div>
+
         </div>
     </section>
     <!-- Our Speakings Area End -->
