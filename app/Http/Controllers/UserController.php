@@ -55,6 +55,6 @@ class UserController extends Controller
 
         Mail::to($request->email)->send(new KakatooEmail($emailData));
 
-        return redirect('/');
+        return redirect('/joinus')->with(['success' => 'Registration Successful']);
     }
 }

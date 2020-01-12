@@ -30,6 +30,13 @@
                             </ul>
                         </div>
                         @endif
+
+                        @if ($message = Session::get('success'))
+                            <div class="alert alert-success alert-block">
+                                {{ $message }}
+                            </div>
+                        @endif
+
                         <form action="/joinus/proses" method="post" id="main_contact_form" enctype="multipart/form-data">
                             {{ csrf_field() }}
                             <div class="contact_input_area">
@@ -82,7 +89,7 @@
 
                                     <!-- Button -->
                                     <div class="col-12">
-                                        <button type="submit" class="btn confer-btn">Send<i class="zmdi zmdi-long-arrow-right"></i>
+                                        <button type="submit" class="btn confer-btn" data-toggle="modal" data-target="#modalProses">Send<i class="zmdi zmdi-long-arrow-right"></i>
                                     </div>
                                 </div>
                             </div>
@@ -93,5 +100,21 @@
         </div>
     </div>
 </section>
+
+<div class="modal fade" id="modalProses" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Pendaftaran Diproses</h5>
+            </div>
+            <div class="modal-body">
+                Tunggu sebentar pendaftaran anda sedang diperiksa
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
 <!-- Contact Area End -->
 @endsection
