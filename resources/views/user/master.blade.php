@@ -49,8 +49,8 @@
                         <!-- Nav Start -->
                         <div class="classynav">
                             <ul id="nav">
-                                <li class="active"><a href="index.html">Home</a></li>
-                                <li><a href="speakers.html">Syarat & Ketentuan</a></li>
+                                <li class="active"><a href="/">Home</a></li>
+                                <li><a href="/user/syarat">Syarat & Ketentuan</a></li>
                                 <li><a href="/joinus">Register</a></li>
                             </ul>
                         </div>
