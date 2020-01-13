@@ -441,7 +441,7 @@ input:required {
     font-weight: 400; }
   .section-heading-2 h4 {
     font-size: 38px;
-    color: #000000;
+    color: #ffffff;
     margin-bottom: 0;
     text-transform: uppercase;
     letter-spacing: 1px; }
@@ -778,7 +778,7 @@ input:required {
   width: 100%; }
 
 .classy-navbar-toggler .navbarToggler span {
-  background-color: #ffffff; }
+  background-color: #707070 }
 
 .header-area {
   position: fixed;
@@ -2665,7 +2665,7 @@ input:required {
   border-radius: 0;
   border-bottom: 1px solid #4d507d;
   font-size: 15px;
-  text-transform: capitalize;
+  text-transform: inherit;
   color: #9293bc;
   padding-left: 0; }
   .form-group .form-control:focus {
@@ -2701,8 +2701,8 @@ input:required {
   margin-bottom: 30px; }
 
 .contact_input_area .form-group .form-control {
-  border-bottom: 1px solid #dbdcf1;
-  color: #9293bc; }
+  border-bottom: 1px solid #8687a3;
+  color: #000000; }
   .contact_input_area .form-group .form-control:active, .contact_input_area .form-group .form-control:focus {
     border-bottom-color: #5d5e8d; }
 .contact_input_area .form-group textarea.form-control {
@@ -2781,3 +2781,48 @@ input:required {
   background: #000000;
   border: 2px solid rgba(11,179,244,1);
 }
+
+.register-btn {
+  position: relative;
+  z-index: 1;
+  height: 46px;
+  line-height: 46px;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  display: inline-block;
+  padding: 0 25px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #0084ff;
+  border-radius: 23px;
+  -webkit-transition-duration: 500ms;
+  -o-transition-duration: 500ms;
+  transition-duration: 500ms;
+  overflow: hidden; }
+  .register-btn i {
+    margin-left: 5px; }
+  .register-btn::before {
+    -webkit-transition-duration: 800ms;
+    -o-transition-duration: 800ms;
+    transition-duration: 800ms;
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    top: -10%;
+    left: -10%;
+    content: '';
+    background: #ffffff;
+    z-index: -2; }
+  .register-btn:focus, .register-btn:hover {
+    font-weight: 500;
+    background-color: rgba(11,179,244,1);
+    color: #ffffff !important;
+    -webkit-box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
+    box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15); }
+    .register-btn:focus i, .register-btn:hover i {
+      -webkit-animation: buttonIcon 1s ease-in infinite;
+      animation: buttonIcon 1s ease-in infinite; }
+    .register-btn:focus::before, .register-btn:hover::before {
+      left: 110%; }

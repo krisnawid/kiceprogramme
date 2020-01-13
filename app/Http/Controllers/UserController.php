@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\User;
+use Illuminate\Support\Facades\Mail;
+use App\Mail\KakatooEmail;
 
 class UserController extends Controller
 {
@@ -18,10 +20,10 @@ class UserController extends Controller
     {
         # code...
         $this->validate($request, [
-            'firstName' => 'required',
-            'lastName' => 'required',
-            'email' => 'required',
-            'phone' => 'required',
+            'firstName' => 'required|alpha',
+            'lastName' => 'required|alpha',
+            'email' => 'required|email|unique:registration,email',
+            'whatsappNumber' => 'required|numeric',
             'address' => 'required',
             'buktiPembayaran' => 'file|image|mimes:jpeg,png,jpg|max:2048|required',
             'fotoDiri' => 'file|image|mimes:jpeg,png,jpg|max:2048|required'
@@ -32,21 +34,27 @@ class UserController extends Controller
  
         $namaFilePembayaran = time()."_".$filePembayaran->getClientOriginalName();
         $namaFileFoto = time()."_".$fileFoto->getClientOriginalName();
- 
-      	// isi dengan nama folder tempat kemana file diupload
 	    $tujuan_upload = 'data_file';
         $filePembayaran->move($tujuan_upload,$namaFilePembayaran);
         $fileFoto->move($tujuan_upload,$namaFileFoto);
-
-        User::create([
+        
+        User::create ([
             'nama_depan' => $request->firstName,
             'nama_belakang' => $request->lastName,
             'email' => $request->email,
-            'phone' => $request->phone,
+            'phone' => $request->whatsappNumber,
             'alamat' => $request->address,
             'bukti_pembayaran' => $namaFilePembayaran,
             'foto_peserta' => $namaFileFoto
         ]);
-        return redirect('/');
+
+        $emailData = array(
+            'namaDepan' => $request->firstName,
+            'namaBelakang' => $request->lastName
+        );
+
+        Mail::to($request->email)->send(new KakatooEmail($emailData));
+
+        return redirect('/joinus')->with(['success' => 'Registration Successful']);
     }
 }

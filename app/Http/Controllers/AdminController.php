@@ -22,4 +22,13 @@ class AdminController extends Controller
         $user = \App\User::find($id);
         return view('admin.data-tables.detailpeserta', ['user' => $user]);
     }
+
+    public function confirmdatauser(Request $request, $id)
+    {
+        $user = \App\User::find($id);
+        $user->update([
+            'status' => $request->status
+        ]);
+        return redirect('admin/data-tables');
+    }
 }

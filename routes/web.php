@@ -18,6 +18,7 @@ Route::get('/user/syarat', function () { return view('user.syarat'); });
 
 Route::get('/admin/data-tables', 'AdminController@dataregistration');
 Route::get('/admin/{id}/detaildatauser', 'AdminController@detaildatauser');
+Route::post('/admin/{id}/confirmdatauser', 'AdminController@confirmdatauser');//confirmation update
 Route::get('/admin', function () { return view('admin.index'); });
 
 ///admin/data-tables
