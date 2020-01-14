@@ -31,4 +31,28 @@ class AdminController extends Controller
         ]);
         return redirect('admin/data-tables');
     }
+
+    public function login()
+    {
+        # code...
+        return view('admin.login_admin');
+    }
+
+    public function postLogin(Request $request)
+    {
+        # code...
+        if (\Auth::guard('admin')->attempt(['username' => $request->username, 'password' => $request->password])) {
+            return redirect()->route('admin');
+        }
+        
+        return redirect()->back();
+
+    }
+
+    public function logout()
+    {
+        # code...
+        \Auth::guard('admin')->logout();
+        return redirect()->route('loginAdmin');
+    }
 }

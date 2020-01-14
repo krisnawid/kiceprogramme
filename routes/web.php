@@ -15,11 +15,18 @@ Route::get('/', function () { return view('user.index'); });
 Route::get('/joinus', 'UserController@registration');
 Route::post('/joinus/proses', 'UserController@prosesregistration');
 
-Route::get('/admin/data-tables', 'AdminController@dataregistration');
-Route::get('/admin/{id}/detaildatauser', 'AdminController@detaildatauser');
-Route::post('/admin/{id}/confirmdatauser', 'AdminController@confirmdatauser');//confirmation update
-Route::get('/admin', function () { return view('admin.index'); });
+Route::get('/admin/data-tables', 'AdminController@dataregistration')->middleware('auth:admin');
+Route::get('/admin/{id}/detaildatauser', 'AdminController@detaildatauser')->middleware('auth:admin');
+Route::post('/admin/{id}/confirmdatauser', 'AdminController@confirmdatauser')->middleware('auth:admin');//confirmation update
+// Route::get('/admin', function () { return view('admin.index'); });
 
-///admin/data-tables
+// ///admin/data-tables
 
-Route::get('/admin','AdminController@index');
+// Route::get('/admin','AdminController@index');
+
+Route::get('/loginadmin', 'AdminController@login')->name('loginAdmin')->middleware('guest');
+Route::post('/loginadmin', 'AdminController@postLogin')->middleware('guest');
+
+Route::get('/admin', 'AdminController@index')->name('admin')->middleware('auth:admin');
+
+Route::get('/logout', 'AdminController@logout')->middleware('auth:admin')->name('logoutAdmin');
