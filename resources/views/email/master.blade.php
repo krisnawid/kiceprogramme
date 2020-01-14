@@ -483,14 +483,9 @@ ul.social li{
             </table>
           </td>
 	      </tr><!-- end tr -->
-	      <tr>
-	        <td class="bg_white email-section" style="text-align:center; background-color: white">
-	        	<div class="heading-section heading-section-dark">
-	          	<h2>Pendaftaran</h2>
-	          	<p style="color: black">Hai {{$data['namaDepan']}} {{$data['namaBelakang']}}, saat ini tim kami sedang memproses pendaftaran kamu, tim kami akan menghubungi kamu kembali saat terjadi perubahan status pendaftaran.</p>
-	        	</div>
-	        </td>
-	      </tr><!-- end: tr -->
+          
+          @yield('content')
+
       <!-- 1 Column Text + Button : END -->
       </table>
       <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="margin: auto;">

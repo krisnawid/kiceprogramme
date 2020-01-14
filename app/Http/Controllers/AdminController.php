@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
+use App\Mail\KakatooConfirmEmail;
 
 class AdminController extends Controller
 {
@@ -29,6 +31,13 @@ class AdminController extends Controller
         $user->update([
             'status' => $request->status
         ]);
+
+        $emailData = array(
+            'namaDepan' => $user->nama_depan,
+            'namaBelakang' => $user->nama_belakang
+        );
+
+        Mail::to($user->email)->send(new KakatooConfirmEmail($emailData));
         return redirect('admin/data-tables');
     }
 

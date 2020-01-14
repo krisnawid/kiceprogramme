@@ -20,8 +20,8 @@ class UserController extends Controller
     {
         # code...
         $this->validate($request, [
-            'firstName' => 'required|alpha',
-            'lastName' => 'required|alpha',
+            'firstName' => 'required',
+            'lastName' => 'required',
             'email' => 'required|email|unique:registration,email',
             'whatsappNumber' => 'required|numeric',
             'address' => 'required',

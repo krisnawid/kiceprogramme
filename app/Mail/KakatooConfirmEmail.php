@@ -7,7 +7,7 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 
-class KakatooEmail extends Mailable
+class KakatooConfirmEmail extends Mailable
 {
     use Queueable, SerializesModels;
     public $emailData;
@@ -19,7 +19,6 @@ class KakatooEmail extends Mailable
      */
     public function __construct($emailData)
     {
-        //
         $this -> emailData = $emailData;
     }
 
@@ -30,18 +29,17 @@ class KakatooEmail extends Mailable
      */
     public function build()
     {
-
         $data = array(
-                'namaDepan' => $this->emailData['namaDepan'],
-                'namaBelakang' => $this->emailData['namaBelakang']
+            'namaDepan' => $this->emailData['namaDepan'],
+            'namaBelakang' => $this->emailData['namaBelakang']
         );
 
-        return $this->view('email.emailregistration')
+        return $this->view('email.emailconfirmation')
         ->from('admin@kakatoo.com')
         ->subject('Kakatoo')
         ->with(
-         [
-             'data' => $data
-         ]);
-    }
+        [
+            'data' => $data
+        ]);
+        }
 }
