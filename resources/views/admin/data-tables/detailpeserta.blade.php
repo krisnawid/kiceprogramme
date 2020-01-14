@@ -93,7 +93,7 @@
                                     <a class="btn btn-danger btn-block" href="/admin/data-tables" >Back</a>
                                   @else
                                     <div class="alert alert-light text-center"><span class="badge badge-primary">Data Belum Terkonfirmasi</span></div>
-                                    <button type="submit" class="btn btn-success btn-lg btn-block">Konfirmasi Data Registrasi</button>
+                                    <button type="submit" data-toggle="modal" data-target="#modalKonfrimasi" class="btn btn-success btn-lg btn-block">Konfirmasi Data Registrasi</button>
                                     <a class="btn btn-danger btn-lg btn-block" href="/admin/data-tables" >Back</a>
                                   @endif
                               </form>
@@ -108,4 +108,17 @@
             <!--Row-->
           </div>
           <!---Container Fluid-->
+
+          <div class="modal fade" id="modalKonfrimasi" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Konfirmasi Diproses</h5>
+                    </div>
+                    <div class="modal-body">
+                        Tunggu sebentar konfirmasi sedang diproses
+                    </div>
+                </div>
+            </div>
+        </div>
 @endsection
