@@ -16,6 +16,11 @@
     <!-- Stylesheet -->
     <link rel="stylesheet" href="{{ asset('style.css') }}">
 
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
 
 <body>
@@ -50,7 +55,7 @@
                         <div class="classynav">
                             <ul id="nav">
                                 <li class="active"><a href="/">Home</a></li>
-                                <li><a href="/user/syarat">Syarat & Ketentuan</a></li>
+                                <li><a href="/user/syarat">Procedure</a></li>
                                 <li><a href="/joinus">Register</a></li>
                             </ul>
                         </div>

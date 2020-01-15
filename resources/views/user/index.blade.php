@@ -778,7 +778,7 @@
     <!-- Our Schedule Area End -->
 
     <!-- Our Ticket Pricing Table Area Start -->
-    <section class="our-ticket-pricing-table-area bg-img bg-gradient-overlay section-padding-100-0 jarallax" style="background-image: url({{ asset('img/user/bg-img/14.jpg') }});">
+    <section class="our-ticket-pricing-table-area bg-img bg-gradient-overlay section-padding-100-60 jarallax" style="background-image: url({{ asset('img/user/bg-img/14.jpg') }});">
         <div class="container">
             <div class="row">
                 <!-- Heading -->
@@ -804,11 +804,7 @@
                         <h2 class="ticket-price"><span></span>Free</h2>
                         <!-- Ticket Pricing Table Details -->
                         <div class="ticket-pricing-table-details">
-                            <p><i class="zmdi zmdi-check"></i> One Day Conference Ticket</p>
-                            <p><i class="zmdi zmdi-check"></i> Coffee-break</p>
-                            <p><i class="zmdi zmdi-check"></i> Lunch and Networking</p>
-                            <p><i class="zmdi zmdi-check"></i> Keynote talk</p>
-                            <p><i class="zmdi zmdi-check"></i> Talk to the Editors Session</p>
+                            <p> Fully funded is a description for a pension plan that has sufficient assets to provide for all the accrued benefits it owes and therefore can meet its future obligations. In order to be fully funded, the plan must be able to make all the anticipated payments to both current and prospective pensioners </p>
                         </div>
                     </div>
                 </div>
@@ -816,7 +812,7 @@
                 <!-- Single Ticket Pricing Table -->
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="single-ticket-pricing-table active text-center mb-100 wow fadeInUp" data-wow-delay="300ms">
-                        <h6 class="ticket-plan">Partial Founded</h6>
+                        <h6 class="ticket-plan">Partial Funded</h6>
                         <!-- Ticket Icon -->
                         <div class="ticket-icon">
                             <img src="{{ asset('img/user/core-img/p2.png') }}" alt="">
@@ -826,11 +822,7 @@
                         <h2 class="ticket-price"><span>Rp.</span>2.000K</h2>
                         <!-- Ticket Pricing Table Details -->
                         <div class="ticket-pricing-table-details">
-                            <p><i class="zmdi zmdi-check"></i> One Day Conference Ticket</p>
-                            <p><i class="zmdi zmdi-check"></i> Coffee-break</p>
-                            <p><i class="zmdi zmdi-check"></i> Lunch and Networking</p>
-                            <p><i class="zmdi zmdi-check"></i> Keynote talk</p>
-                            <p><i class="zmdi zmdi-check"></i> Talk to the Editors Session</p>
+                            <p>Partial funding means funding less than the maximum percentage of eligible costs allowed under this chapter. Sample 2. Partial funding means funding less than the maximum department share allowed under this chapter. companies pay for healthcare expenses out-of-pocket as they are received</p>
                         </div>
                     </div>
                 </div>
@@ -838,7 +830,7 @@
                 <!-- Single Ticket Pricing Table -->
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="single-ticket-pricing-table text-center mb-100 wow fadeInUp" data-wow-delay="300ms">
-                        <h6 class="ticket-plan">Self Founded</h6>
+                        <h6 class="ticket-plan">Self Funded</h6>
                         <!-- Ticket Icon -->
                         <div class="ticket-icon">
                             <img src="{{ asset('img/user/core-img/p3.png') }}" alt="">
@@ -848,41 +840,44 @@
                         <h2 class="ticket-price"><span>Rp.</span>3.500K</h2>
                         <!-- Ticket Pricing Table Details -->
                         <div class="ticket-pricing-table-details">
-                            <p><i class="zmdi zmdi-check"></i> One Day Conference Ticket</p>
-                            <p><i class="zmdi zmdi-check"></i> Coffee-break</p>
-                            <p><i class="zmdi zmdi-check"></i> Lunch and Networking</p>
-                            <p><i class="zmdi zmdi-check"></i> Keynote talk</p>
-                            <p><i class="zmdi zmdi-check"></i> Talk to the Editors Session</p>
+                            <p>Self funding, otherwise known as self-insured insurance, is a plan in which the employer takes on the financial risk of providing certain healthcare benefits to his or her employees. With self funding insurance, companies pay for healthcare expenses out-of-pocket as they are received</p>
                         </div>
                     </div>
                 </div>
+                <div class="col-12 col-md-6 col-lg-4"></div>
+
+                <div class="col-12 col-md-6 col-lg-4" style="text-align: center">
+                    <a href="/user/syarat" class="btn register-btn">How To Get It ? <i class="zmdi zmdi-long-arrow-right"></i></a>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4"><div>
             </div>
         </div>
     </section>
     <!-- Our Ticket Pricing Table Area End -->
 
-    <!-- Our Blog Area Start -->
-    <section class="our-blog-area section-padding-100-60" style="background-color: #ffffff;">
+
+    <!-- <section class="our-blog-area section-padding-100-60" style="background-color: #ffffff;">
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <!-- Heading -->
+                    
                     <div class="section-heading text-center wow fadeInUp" data-wow-delay="300ms">
                         <p style="color: #000000;">Our Blog</p>
                         <h4 style="color: #000000;">Testimoni</h4>
                     </div>
                 </div>
 
-                <!-- Single Blog Area -->
+                
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="single-blog-area wow fadeInUp" data-wow-delay="300ms">
-                        <!-- Single blog Thumb -->
+                        
                         <div class="single-blog-thumb">
                             <img src="{{ asset('img/user/bg-img/18.jpg') }}" alt="">
                         </div>
                         <div class="single-blog-text text-center">
                             <a class="blog-title" href="#">Street Food Convention</a>
-                            <!-- Post Meta -->
+                            
                             <div class="post-meta">
                                 <a class="post-date" href="#"><i class="zmdi zmdi-alarm-check"></i> January 14, 2019</a>
                                 <a class="post-author" href="#"><i class="zmdi zmdi-account"></i> Laura Green</a>
@@ -895,16 +890,16 @@
                     </div>
                 </div>
 
-                <!-- Single Blog Area -->
+                
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="single-blog-area wow fadeInUp" data-wow-delay="300ms">
-                        <!-- Single blog Thumb -->
+                        
                         <div class="single-blog-thumb">
                             <img src="{{ asset('img/user/bg-img/19.jpg') }}" alt="">
                         </div>
                         <div class="single-blog-text text-center">
                             <a class="blog-title" href="#">Tedx Moscow Conference</a>
-                            <!-- Post Meta -->
+                            
                             <div class="post-meta">
                                 <a class="post-date" href="#"><i class="zmdi zmdi-alarm-check"></i>January 14, 2019</a>
                                 <a class="post-author" href="#"><i class="zmdi zmdi-account"></i>Laura Green</a>
@@ -917,16 +912,16 @@
                     </div>
                 </div>
 
-                <!-- Single Blog Area -->
+                
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="single-blog-area wow fadeInUp" data-wow-delay="300ms">
-                        <!-- Single blog Thumb -->
+                        
                         <div class="single-blog-thumb">
                             <img src="{{ asset('img/user/bg-img/20.jpg') }}" alt="">
                         </div>
                         <div class="single-blog-text text-center">
                             <a class="blog-title" href="#">Los Angeles Institute</a>
-                            <!-- Post Meta -->
+                            
                             <div class="post-meta">
                                 <a class="post-date" href="#"><i class="zmdi zmdi-alarm-check"></i>January 14, 2019</a>
                                 <a class="post-author" href="#"><i class="zmdi zmdi-account"></i>Laura Green</a>
@@ -940,7 +935,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- Our Blog Area End -->
 
     <!-- Contact Area Start -->
