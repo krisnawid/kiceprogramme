@@ -70,7 +70,7 @@
                                             <tbody>
                                                 <tr>
                                                 <th scope="row">1</th>
-                                                <td> Fill & Pay registration fee Rp. 85.000 to 7510328820 Bank BCA </td>
+                                                <td> Fill & Pay registration fee Rp. 85.000 to 1234567890 Bank BCA </td>
                                                 <td> 11 January - 26 January </td>
                                                 </tr>
                                             </tbody>

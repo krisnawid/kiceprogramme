@@ -11,7 +11,7 @@
     <title>KICE - Kakatoo International Culture and Education Exchange</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="{{ asset('img/user/core-img/favicon.png') }}">
+    <link rel="icon" href="{{ asset('img/admin/logo/logo.png') }}"> 
 
     <!-- Stylesheet -->
     <link rel="stylesheet" href="{{ asset('style.css') }}">
