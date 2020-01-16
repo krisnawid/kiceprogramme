@@ -19,6 +19,9 @@ Route::get('/user/syarat', function () { return view('user.syarat'); });
 Route::get('/admin/data-tables', 'AdminController@dataregistration')->middleware('auth:admin');
 Route::get('/admin/{id}/detaildatauser', 'AdminController@detaildatauser')->middleware('auth:admin');
 Route::post('/admin/{id}/confirmdatauser', 'AdminController@confirmdatauser')->middleware('auth:admin');//confirmation update
+
+Route::get('/admin/dataconfirmed', 'AdminController@dataconfirmed')->name('dataconfirmed')->middleware('auth:admin');
+Route::get('/admin/datapending', 'AdminController@datapending')->name('datapending')->middleware('auth:admin');
 // Route::get('/admin', function () { return view('admin.index'); });
 
 // ///admin/data-tables

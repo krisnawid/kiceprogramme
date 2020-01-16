@@ -19,6 +19,20 @@ class AdminController extends Controller
         return view('admin.data-tables.index', ['data_user' => $data_user]);
     }
 
+    public function datapending()
+    {
+        # code...
+        $dataUser = \App\User::where('status',null)->orWhere('status', 0)->get();
+        return view('admin.data-tables.index', ['data_user'=> $dataUser]);
+    }
+
+    public function dataconfirmed()
+    {
+        # code...   
+        $dataUser = \App\User::where('status',1)->get();
+        return view('admin.data-tables.index', ['data_user'=> $dataUser]);
+    }
+
     public function detaildatauser($id)
     {
         $user = \App\User::find($id);

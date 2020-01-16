@@ -32,22 +32,27 @@
       <div class="sidebar-heading">
         Features
       </div>
-      <li class="nav-item active">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTable" aria-expanded="true"
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="/admin/data-tables" aria-expanded="true"
           aria-controls="collapseTable">
           <i class="fas fa-fw fa-table"></i>
-          <span>Tables</span>
+          <span>Semua Data Registrasi</span>
         </a>
-        <div id="collapseTable" class="collapse show" aria-labelledby="headingTable" data-parent="#accordionSidebar">
-          <div class="bg-white py-2 collapse-inner rounded">
-            <h6 class="collapse-header">Tables</h6>
-            <a class="collapse-item" href="/admin/data-tables">Data Registration User</a>
-            <a class="collapse-item" href="/admin/data-tables">DataTables</a>
-          </div>
-        </div>
       </li>
-      <hr class="sidebar-divider">
-      <div class="version" id="version-ruangadmin"></div>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="/admin/dataconfirmed" aria-expanded="true"
+          aria-controls="collapseTable">
+          <i class="fas fa-fw fa-table"></i>
+          <span style="font-size: 78%">Data Registrasi (Terkonfirmasi)</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="/admin/datapending" aria-expanded="true"
+          aria-controls="collapseTable">
+          <i class="fas fa-fw fa-table"></i>
+          <span>Data Registrasi (Pending)</span>
+        </a>
+      </li>
     </ul>
     <div id="content-wrapper" class="d-flex flex-column">
       <div id="content">
@@ -57,7 +62,6 @@
             <i class="fa fa-bars"></i>
           </button>
           <ul class="navbar-nav ml-auto">
-            <div class="topbar-divider d-none d-sm-block"></div>
             <li class="nav-item dropdown no-arrow">
               <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false">
@@ -65,19 +69,6 @@
                 <span class="ml-2 d-none d-lg-inline text-white small">{{ Auth::guard('admin')->user()->name}}</span>
               </a>
               <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
-                <a class="dropdown-item" href="#">
-                  <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
-                  Profile
-                </a>
-                <a class="dropdown-item" href="#">
-                  <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
-                  Settings
-                </a>
-                <a class="dropdown-item" href="#">
-                  <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
-                  Activity Log
-                </a>
-                <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="{{ route('logoutAdmin') }}">
                   <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
                   Logout
