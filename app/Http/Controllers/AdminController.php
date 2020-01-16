@@ -15,21 +15,21 @@ class AdminController extends Controller
 
     public function dataregistration()
     {
-        $data_user = \App\User::all();
-        return view('admin.data-tables.index', ['data_user' => $data_user]);
+        $dataUser = \App\User::paginate(15);
+        return view('admin.data-tables.index', ['data_user' => $dataUser]);
     }
 
     public function datapending()
     {
         # code...
-        $dataUser = \App\User::where('status',null)->orWhere('status', 0)->get();
+        $dataUser = \App\User::where('status',null)->orWhere('status', 0)->paginate(15);
         return view('admin.data-tables.index', ['data_user'=> $dataUser]);
     }
 
     public function dataconfirmed()
     {
         # code...   
-        $dataUser = \App\User::where('status',1)->get();
+        $dataUser = \App\User::where('status',1)->paginate(15);
         return view('admin.data-tables.index', ['data_user'=> $dataUser]);
     }
 
