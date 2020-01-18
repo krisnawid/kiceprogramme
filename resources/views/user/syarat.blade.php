@@ -8,7 +8,7 @@
             <!-- Heading -->
             <div class="col-12">
                 <div class="section-heading text-center wow fadeInUp" data-wow-delay="300ms" style="margin-top: 50px;">
-                    <h4>Syarat Dan Waktu Pendaftaran</h4>
+                    <h4>Program Registration Procedure</h4>
                 </div>
             </div>
         </div>
@@ -24,11 +24,11 @@
                                 <!-- Nav Tabs -->
                                 <ul class="nav nav-tabs wow fadeInUp" data-wow-delay="300ms" id="conferScheduleTab" role="tablist">
                                     <li class="nav-item">
-                                        <a class="nav-link active" id="monday-tab" data-toggle="tab" href="#step-one" role="tab" aria-controls="step-one" aria-expanded="true">Syarat Dan Ketentuan</span></a>
+                                        <a class="nav-link active" id="monday-tab" data-toggle="tab" href="#step-one" role="tab" aria-controls="step-one" aria-expanded="true">Terms and Conditions</span></a>
                                     </li>
                                     <!-- Nav Item -->
                                     <li class="nav-item">
-                                        <a class="nav-link" id="tuesday-tab" data-toggle="tab" href="#step-two" role="tab" aria-controls="step-two" aria-expanded="true">Procedure Process</span></a>
+                                        <a class="nav-link" id="tuesday-tab" data-toggle="tab" href="#step-two" role="tab" aria-controls="step-two" aria-expanded="true">Important Schedule</span></a>
                                     </li>
                                     <!-- Nav Item -->
                                     <li class="nav-item">
@@ -41,16 +41,11 @@
                                 <div class="tab-pane fade show active" id="step-one" role="tabpanel" aria-labelledby="monday-tab">
                                     <div class="single-tab-content">
                                         <ul class="list-group">
-                                            <li class="list-group-item">1. Warga Negara Indonesia (WNI)</li>
-                                            <li class="list-group-item">2. Pria/Wanita</li>
-                                            <li class="list-group-item">3. Nilai Matematika dan Bahasa Inggris (umum/pengetahuan/teori/wajib) masing-masing minimal 80, pada semester IV dan V</li>
-                                            <li class="list-group-item">4. Usia minimal 17 tahun dan tidak melebihi dari 21 tahun pada tanggal 31 Desember 2019</li>
-                                            <li class="list-group-item">5. Sehat jasmani dan rohani, tidak buta warna, tidak cacat ﬁsik dan mental</li>
-                                            <li class="list-group-item">6. Bagi pria tidak bertato/bekas tato dan tidak ditindik/bekas tindik telinganya atau anggota badan lainnya, kecuali yang disebabkan oleh ketentuan agama/adat</li>
-                                            <li class="list-group-item">7. Bagi wanita tidak bertato/bekas tato dan tidak bekas tindik/bekas tindik anggota badan lainnya selain telinga</li>
-                                            <li class="list-group-item">8. Ketentuan Selanjutnya</li>
-                                            <li class="list-group-item">9. Ketentuan Selanjutnya</li>
-                                            <li class="list-group-item">10. Ketentuan Selanjutnya</li>
+                                            <li class="list-group-item">1. Applicants are Indonesian citizens (applicants from other countries must contact the committee at hello@kiceprogramme.com)</li>
+                                            <li class="list-group-item">2. This program only accepts applicants aged between 16 to 24 years</li>
+                                            <li class="list-group-item">3. This program includes accommodation for departing from the country of origin to return to his country, consumption, and place to stay</li>
+                                            <li class="list-group-item">4. Passports and visas are the responsibility of each elected delegate, the committee does not cover the costs of making passports and visas.</li>
+                                            <li class="list-group-item">5. Able to read, speak, and write English at least in the basic level</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -70,43 +65,64 @@
                                             <tbody>
                                                 <tr>
                                                 <th scope="row">1</th>
-                                                <td> Fill & Pay registration fee Rp. 85.000 to 1234567890 Bank BCA </td>
-                                                <td> 11 January - 26 January </td>
+                                                <td> Fill & Pay registration fee Rp. 85.000 to BNI Account OTEBE Smart 0525837420 </td>
+                                                <td> 27 January – 28 February </td>
                                                 </tr>
                                             </tbody>
                                             <tbody>
                                                 <tr>
                                                 <th scope="row">2</th>
-                                                <td> Announcement for Phase 1 </td>
-                                                <td> 14 February </td>
+                                                <td> The deadline for collecting fully funded and partial funded files </td>
+                                                <td> 1 March </td>
                                                 </tr>
                                             </tbody>
                                             <tbody>
                                                 <tr>
                                                 <th scope="row">3</th>
-                                                <td> Social Video Project Submit </td>
-                                                <td> 26 February </td>
+                                                <td> Phase 1 announcement  </td>
+                                                <td> 8 March </td>
                                                 </tr>
                                             </tbody>
                                             <tbody>
                                                 <tr>
                                                 <th scope="row">4</th>
-                                                <td> Final announcement for IYLE “Edu Social Program” </td>
-                                                <td> 2 Maret </td>
+                                                <td> The deadline for Re-registration 1  </td>
+                                                <td> 15 March </td>
                                                 </tr>
                                             </tbody>
                                             <tbody>
                                                 <tr>
                                                 <th scope="row">5</th>
-                                                <td> Interview selection for top 2 participants </td>
-                                                <td> 17 Maret </td>
+                                                <td> Phase 2 announcement  </td>
+                                                <td> 22 march </td>
                                                 </tr>
                                             </tbody>
                                             <tbody>
                                                 <tr>
                                                 <th scope="row">6</th>
-                                                <td> Announcement for delegates who get fully funded program </td>
-                                                <td> 23 Maret </td>
+                                                <td> The deadline for re-registration 2  </td>
+                                                <td> 29 March </td>
+                                                </tr>
+                                            </tbody>
+                                            <tbody>
+                                                <tr>
+                                                <th scope="row">7</th>
+                                                <td> Interview selection to get fully funded   </td>
+                                                <td> 4 April </td>
+                                                </tr>
+                                            </tbody>
+                                            <tbody>
+                                                <tr>
+                                                <th scope="row">8</th>
+                                                <td> Announcement of delegates who get fully funded    </td>
+                                                <td> 11 April </td>
+                                                </tr>
+                                            </tbody>
+                                            <tbody>
+                                                <tr>
+                                                <th scope="row">9</th>
+                                                <td> Goes to Malaysia    </td>
+                                                <td> 22 – 25 June </td>
                                                 </tr>
                                             </tbody>
                                         </table>

@@ -34,9 +34,7 @@
                     <div class="about-content-text mb-80">
                         <h6 class="wow fadeInUp" data-wow-delay="300ms">Program Description</h6>
                         <h3 class="wow fadeInUp" data-wow-delay="300ms">Program Goals</h3>
-                        <p class="wow fadeInUp" data-wow-delay="300ms">The goals of this program is to increase social humanity awareness, learn about social enterprise and its impact, develop leadership and build the character through challenging situation, also to enhance youth’s leadership skills by giving them challenging intercultural environment and cultures through activities that cultivating teamwork, social awareness peaceful, and a sense of unity among young leaders.
-
-                            At the end of this program, we want all delegates can make an impact in their homes, communities, among their peers and, most importantly, within themselves by leaving with a better knowledge from this program.</p>
+                        <p class="wow fadeInUp" data-wow-delay="300ms">Goals of this program to provide delegates with insights into culture and education in other countries. With global insights, it is hoped that this program can inspire delegates who will become leaders in the future. in this program the delegation will practice soft skills, interact directly with local communities and provide solutions to problems or solutions to potential that can be developed. Delegates will be formed to be leaders who have an impact both on society and the environment.</p>
                         <a href="/joinus" class="btn confer-btn mt-50 wow fadeInUp" data-wow-delay="300ms">Join Us <i class="zmdi zmdi-long-arrow-right"></i></a>
                     </div>
                 </div>
@@ -44,7 +42,7 @@
                 <!-- About Thumb -->
                 <div class="col-12 col-md-6">
                     <div class="about-thumb mb-80 wow fadeInUp" data-wow-delay="300ms">
-                        <img src="{{ asset('img/user/bg-img/pen.jpg') }}" alt="" >
+                        <img src="{{ asset('img/user/bg-img/malaysia.png') }}" alt="" >
                     </div>
                 </div>
             </div>
@@ -71,16 +69,16 @@
                     <div class="single-speaker-area bg-gradient-overlay-2 wow fadeInUp" data-wow-delay="300ms">
                         <!-- Thumb -->
                         <div class="speaker-single-thumb">
-                            <img src="{{ asset('img/user/bg-img/tha2.jpg') }}" alt="">
+                            <img src="{{ asset('img/user/bg-img/cam.jpg') }}" alt="">
                         </div>
                         <!-- Social Info -->
                         <div class="social-info">
-                            <p style="color: white;">Delegates will explore Bangkok City in a different way with several challenges given. Feel the multicultural environment through city exploration.</p>
+                            <p style="color: white;">The delegation will visit famous campuses in the country to get to know various campus activities in producing the next leaders in the country</p>
                         </div>
                         <!-- Info -->
                         <div class="speaker-info">
-                            <h5>Survival</h5>
-                            <p>Chellenge</p>
+                            <h5>Campus</h5>
+                            <p>Visit</p>
                         </div>
                     </div>
                 </div>
@@ -90,16 +88,16 @@
                     <div class="single-speaker-area bg-gradient-overlay-2 wow fadeInUp" data-wow-delay="300ms">
                         <!-- Thumb -->
                         <div class="speaker-single-thumb">
-                            <img src="{{ asset('img/user/bg-img/mala3.jpg') }}" alt="">
+                            <img src="{{ asset('img/user/bg-img/cul1.jpg') }}" alt="">
                         </div>
                         <!-- Social Info -->
                         <div class="social-info">
-                            <p style="color: white;">Strengthen Leadership and Social awareness of the humanity especially with people with disabilities by doing social works in multicultural environment and learn about social enterprise and its impact.</p>
+                            <p style="color: white;">The delegates will introduce each other's culture together with the surrounding community in the country</p>
                         </div>
                         <!-- Info -->
                         <div class="speaker-info">
-                            <h5>Social</h5>
-                            <p>Expeditions</p>
+                            <h5>Cultural</h5>
+                            <p>Exchange</p>
                         </div>
                     </div>
                 </div>
@@ -113,7 +111,7 @@
                         </div>
                         <!-- Social Info -->
                         <div class="social-info">
-                            <p style="color: white;">Delegates will be divided into some groups and discuss topic and their experience since they are in Bangkok, Thailand</p>
+                            <p style="color: white;">The delegation will discuss with students in the country with the theme of educational development and cultural inculcation</p>
                         </div>
                         <!-- Info -->
                         <div class="speaker-info">
@@ -128,16 +126,16 @@
                     <div class="single-speaker-area bg-gradient-overlay-2 wow fadeInUp" data-wow-delay="300ms">
                         <!-- Thumb -->
                         <div class="speaker-single-thumb">
-                            <img src="{{ asset('img/user/bg-img/cul1.jpg') }}" alt="">
+                            <img src="{{ asset('img/user/bg-img/solv.jpg') }}" alt="">
                         </div>
                         <!-- Social Info -->
                         <div class="social-info">
-                            <p style="color: white;">Delegates will have an intercultural and interfaith experience during program from direct interaction with local people, and also broaden their international relations.</p>
+                            <p style="color: white;">The delegation looks for problems in the country or problems in the country of origin to provide solutions based on the discussions and observations obtained during the program</p>
                         </div>
                         <!-- Info -->
                         <div class="speaker-info">
-                            <h5>Cultural Exchange</h5>
-                            <p>Program</p>
+                            <h5>Global Problem</h5>
+                            <p>Solving</p>
                         </div>
                     </div>
                 </div>
@@ -151,12 +149,12 @@
                         </div>
                         <!-- Social Info -->
                         <div class="social-info">
-                            <p style="color: white;">Delegates will visit historical site destination in Bangkok, Thailand, and taste famous street food.</p>
+                            <p style="color: white;">The delegation will visit places that become an icon of the country and contain historical and cultural values</p>
                         </div>
                         <!-- Info -->
                         <div class="speaker-info">
                             <h5>City</h5>
-                            <p>Trip</p>
+                            <p>Tour</p>
                         </div>
                     </div>
                 </div>
@@ -166,16 +164,16 @@
                     <div class="single-speaker-area bg-gradient-overlay-2 wow fadeInUp" data-wow-delay="300ms">
                         <!-- Thumb -->
                         <div class="speaker-single-thumb">
-                            <img src="{{ asset('img/user/bg-img/tha20.jpg') }}" alt="">
+                            <img src="{{ asset('img/user/bg-img/show.jpg') }}" alt="">
                         </div>
                         <!-- Social Info -->
                         <div class="social-info">
-                            <p style="color: white;">Delegates will have special dinner at the end of program and the committee will give reward for best delegate and best group performing.</p>
+                            <p style="color: white;">The delegation will perform with his team to win the best performance award that reflects the team's cohesiveness during the program</p>
                         </div>
                         <!-- Info -->
                         <div class="speaker-info">
-                            <h5>Gala</h5>
-                            <p>Dinner</p>
+                            <h5>Gathering</h5>
+                            <p>Night</p>
                         </div>
                     </div>
                 </div>
@@ -213,18 +211,18 @@
                         <!-- Nav Tabs -->
                         <ul class="nav nav-tabs wow fadeInUp" data-wow-delay="300ms" id="conferScheduleTab" role="tablist">
                             <li class="nav-item">
-                                <a class="nav-link active" id="monday-tab" data-toggle="tab" href="#step-one" role="tab" aria-controls="step-one" aria-expanded="true">Monday <br> <span>April 14, 2019</span></a>
+                                <a class="nav-link active" id="monday-tab" data-toggle="tab" href="#step-one" role="tab" aria-controls="step-one" aria-expanded="true">Monday <br> <span>Juny 22, 2020</span></a>
                             </li>
                             <!-- Nav Item -->
                             <li class="nav-item">
-                                <a class="nav-link" id="tuesday-tab" data-toggle="tab" href="#step-two" role="tab" aria-controls="step-two" aria-expanded="true">Tuesday <br> <span>April 15, 2019</span></a>
+                                <a class="nav-link" id="tuesday-tab" data-toggle="tab" href="#step-two" role="tab" aria-controls="step-two" aria-expanded="true">Tuesday <br> <span>Juny 23, 2020</span></a>
                             </li>
                             <!-- Nav Item -->
                             <li class="nav-item">
-                                <a class="nav-link" id="wednesday-tab" data-toggle="tab" href="#step-three" role="tab" aria-controls="step-three" aria-expanded="true">Wednesday <br> <span>April 16, 2019</span></a>
+                                <a class="nav-link" id="wednesday-tab" data-toggle="tab" href="#step-three" role="tab" aria-controls="step-three" aria-expanded="true">Wednesday <br> <span>Juny 24, 2020</span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" id="thursday-tab" data-toggle="tab" href="#step-four" role="tab" aria-controls="step-four" aria-expanded="true">Thursday <br> <span>April 17, 2019</span></a>
+                                <a class="nav-link" id="thursday-tab" data-toggle="tab" href="#step-four" role="tab" aria-controls="step-four" aria-expanded="true">Thursday <br> <span>Juny 25, 2020</span></a>
                             </li>
                         </ul>
                     </div>
@@ -247,13 +245,11 @@
                                                 <!-- Single Schedule Info -->
                                                 <div class="single-schedule-info">
                                                     <h6>Airport Pick Up</h6>
-                                                    <p>Time : <span>12.00 - 13.00</span></p>
                                                 </div>
                                             </div>
                                             <!-- Single Schedule Info -->
                                             <div class="schedule-time-place">
-                                                <p><i class="zmdi zmdi-time"></i> 12-14 Jan 2019</p>
-                                                <p><i class="zmdi zmdi-map"></i> Bandar Udara Internasional Kuala Lumpur , Selangor , Malaysia</p>
+                                                <p><i class="zmdi zmdi-time"></i> Time : <span>12.00 - 14.00</p>
                                             </div>
                                         </div>
 
@@ -267,56 +263,12 @@
                                                 </div>
                                                 <!-- Single Schedule Info -->
                                                 <div class="single-schedule-info">
-                                                    <h6>Transfer to Hotel</h6>
-                                                    <p>Time : <span>13.00 - 14.00</span></p>
+                                                    <h6>Transfer to Hotel & Check In</h6>
                                                 </div>
                                             </div>
                                             <!-- Single Schedule Info -->
                                             <div class="schedule-time-place">
-                                                <p><i class="zmdi zmdi-time"></i> 12-14 Jan 2019</p>
-                                                <p><i class="zmdi zmdi-map"></i> SDoubleTree by Hilton Hotel , Kuala Lumpur , Malaysia</p>
-                                            </div>
-                                        </div>
-
-                                        <!-- Single Schedule Area -->
-                                        <div class="single-schedule-area d-flex flex-wrap justify-content-between align-items-center wow fadeInUp" data-wow-delay="300ms">
-                                            <!-- Single Schedule Thumb and Info -->
-                                            <div class="single-schedule-tumb-info d-flex align-items-center">
-                                                <!-- Single Schedule Thumb -->
-                                                <div class="single-schedule-tumb">
-                                                    <img src="{{ asset('img/user/bg-img/hot.jpg') }}" alt="">
-                                                </div>
-                                                <!-- Single Schedule Info -->
-                                                <div class="single-schedule-info">
-                                                    <h6>Check-In Hotel</h6>
-                                                    <p>Time : <span>13.00 - 14.00</span></p>
-                                                </div>
-                                            </div>
-                                            <!-- Single Schedule Info -->
-                                            <div class="schedule-time-place">
-                                                <p><i class="zmdi zmdi-time"></i> 12-14 Jan 2019</p>
-                                                <p><i class="zmdi zmdi-map"></i> SDoubleTree by Hilton Hotel , Kuala Lumpur , Malaysia</p>
-                                            </div>
-                                        </div>
-
-                                        <!-- Single Schedule Area -->
-                                        <div class="single-schedule-area d-flex flex-wrap justify-content-between align-items-center wow fadeInUp" data-wow-delay="300ms">
-                                            <!-- Single Schedule Thumb and Info -->
-                                            <div class="single-schedule-tumb-info d-flex align-items-center">
-                                                <!-- Single Schedule Thumb -->
-                                                <div class="single-schedule-tumb">
-                                                    <img src="{{ asset('img/user/bg-img/hot.jpg') }}" alt="">
-                                                </div>
-                                                <!-- Single Schedule Info -->
-                                                <div class="single-schedule-info">
-                                                    <h6>Free Time</h6>
-                                                    <p>Time : <span>14.00 - 16.00</span></p>
-                                                </div>
-                                            </div>
-                                            <!-- Single Schedule Info -->
-                                            <div class="schedule-time-place">
-                                                <p><i class="zmdi zmdi-time"></i> 12-14 Jan 2019</p>
-                                                <p><i class="zmdi zmdi-map"></i> SDoubleTree by Hilton Hotel , Kuala Lumpur , Malaysia</p>
+                                                <p><i class="zmdi zmdi-time"></i> Time : <span>14.00 - 16.00</p>
                                             </div>
                                         </div>
 
@@ -330,19 +282,17 @@
                                                 </div>
                                                 <!-- Single Schedule Info -->
                                                 <div class="single-schedule-info">
-                                                    <h6>Welcoming night & Bonding time</h6>
-                                                    <p>Time : <span>18.00 - 21.00</span></p>
+                                                    <h6>Free Time</h6>
                                                 </div>
                                             </div>
                                             <!-- Single Schedule Info -->
                                             <div class="schedule-time-place">
-                                                <p><i class="zmdi zmdi-time"></i> 12-14 Jan 2019</p>
-                                                <p><i class="zmdi zmdi-map"></i>  Hall SDoubleTree Hotel , Kuala Lumpur , Malaysia</p>
+                                                <p><i class="zmdi zmdi-time"></i> Time : <span>16.00 - 19.00</p>
                                             </div>
                                         </div>
 
-                                         <!-- Single Schedule Area -->
-                                         <div class="single-schedule-area d-flex flex-wrap justify-content-between align-items-center wow fadeInUp" data-wow-delay="300ms">
+                                        <!-- Single Schedule Area -->
+                                        <div class="single-schedule-area d-flex flex-wrap justify-content-between align-items-center wow fadeInUp" data-wow-delay="300ms">
                                             <!-- Single Schedule Thumb and Info -->
                                             <div class="single-schedule-tumb-info d-flex align-items-center">
                                                 <!-- Single Schedule Thumb -->
@@ -352,13 +302,11 @@
                                                 <!-- Single Schedule Info -->
                                                 <div class="single-schedule-info">
                                                     <h6>Rest</h6>
-                                                    <p>Time : <span>22.00 - 21.00</span></p>
                                                 </div>
                                             </div>
                                             <!-- Single Schedule Info -->
                                             <div class="schedule-time-place">
-                                                <p><i class="zmdi zmdi-time"></i> 12-14 Jan 2019</p>
-                                                <p><i class="zmdi zmdi-map"></i> SDoubleTree by Hilton Hotel , Kuala Lumpur , Malaysia</p>
+                                                <p><i class="zmdi zmdi-time"></i> Time : <span>21.00</p>
                                             </div>
                                         </div>
                                     </div>
@@ -382,13 +330,11 @@
                                                 <!-- Single Schedule Info -->
                                                 <div class="single-schedule-info">
                                                     <h6>Breakfast</h6>
-                                                    <p>Time : <span>06.00 - 07.00</span></p>
                                                 </div>
                                             </div>
                                             <!-- Single Schedule Info -->
                                             <div class="schedule-time-place">
-                                                <p><i class="zmdi zmdi-time"></i> 12-14 Jan 2019</p>
-                                                <p><i class="zmdi zmdi-map"></i> Hilton Hotel Restaurant, Kuala Lumpur , Malaysia</p>
+                                                <p><i class="zmdi zmdi-time"></i> Time : <span>07.00 - 08.00</p>
                                             </div>
                                         </div>
 
@@ -403,13 +349,11 @@
                                                 <!-- Single Schedule Info -->
                                                 <div class="single-schedule-info">
                                                     <h6>Going to Indonesia Embassy(KBRI)</h6>
-                                                    <p>Time : <span>07.00 - 08.00</span></p>
                                                 </div>
                                             </div>
                                             <!-- Single Schedule Info -->
                                             <div class="schedule-time-place">
-                                                <p><i class="zmdi zmdi-time"></i> 12-14 Jan 2019</p>
-                                                <p><i class="zmdi zmdi-map"></i> Jalan Tun Razak, Kuala Lumpur , Malaysia</p>
+                                                <p><i class="zmdi zmdi-time"></i> Time : <span>08.00 - 11.00</p>
                                             </div>
                                         </div>
 
@@ -423,14 +367,12 @@
                                                 </div>
                                                 <!-- Single Schedule Info -->
                                                 <div class="single-schedule-info">
-                                                    <h6>NGO Visit</h6>
-                                                    <p>Time : <span>10.00 - 12.00</span></p>
+                                                    <h6>Visit Campus</h6>
                                                 </div>
                                             </div>
                                             <!-- Single Schedule Info -->
                                             <div class="schedule-time-place">
-                                                <p><i class="zmdi zmdi-time"></i> 12-14 Jan 2019</p>
-                                                <p><i class="zmdi zmdi-map"></i> Wilayah Persekutuan Putrajaya, Malaysia</p>
+                                                <p><i class="zmdi zmdi-time"></i>Time : <span>11.00 - 13.00</p>
                                             </div>
                                         </div>
 
@@ -444,14 +386,12 @@
                                                 </div>
                                                 <!-- Single Schedule Info -->
                                                 <div class="single-schedule-info">
-                                                    <h6>Orphanage Visit</h6>
-                                                    <p>Time : <span>12.00 - 14.00</span></p>
+                                                    <h6>Discussion with campus community</h6>
                                                 </div>
                                             </div>
                                             <!-- Single Schedule Info -->
                                             <div class="schedule-time-place">
-                                                <p><i class="zmdi zmdi-time"></i> 12-14 Jan 2019</p>
-                                                <p><i class="zmdi zmdi-map"></i> Petaling Jaya, Selangor, Malaysia</p>
+                                                <p><i class="zmdi zmdi-time"></i> Time : <span>13.00 - 16.00</p>
                                             </div>
                                         </div>
 
@@ -461,18 +401,16 @@
                                             <div class="single-schedule-tumb-info d-flex align-items-center">
                                                 <!-- Single Schedule Thumb -->
                                                 <div class="single-schedule-tumb">
-                                                    <img src="{{ asset('img/user/bg-img/hot.jpg') }}" alt="">
+                                                    <img src="{{ asset('img/user/bg-img/hal.jpg') }}" alt="">
                                                 </div>
                                                 <!-- Single Schedule Info -->
                                                 <div class="single-schedule-info">
-                                                    <h6>Back To Hotel</h6>
-                                                    <p>Time : <span>14.00 - 14.30</span></p>
+                                                    <h6>Free Time</h6>
                                                 </div>
                                             </div>
                                             <!-- Single Schedule Info -->
                                             <div class="schedule-time-place">
-                                                <p><i class="zmdi zmdi-time"></i> 12-14 Jan 2019</p>
-                                                <p><i class="zmdi zmdi-map"></i> SDoubleTree by Hilton Hotel , Kuala Lumpur , Malaysia</p>
+                                                <p><i class="zmdi zmdi-time"></i> Time : <span>16.00 - 19.00</p>
                                             </div>
                                         </div>
 
@@ -482,62 +420,19 @@
                                             <div class="single-schedule-tumb-info d-flex align-items-center">
                                                 <!-- Single Schedule Thumb -->
                                                 <div class="single-schedule-tumb">
-                                                    <img src="{{ asset('img/user/bg-img/hot.jpg') }}" alt="">
+                                                    <img src="{{ asset('img/user/bg-img/hal.jpg') }}" alt="">
                                                 </div>
                                                 <!-- Single Schedule Info -->
                                                 <div class="single-schedule-info">
-                                                    <h6>Free Time(CleanUp / Rest)</h6>
-                                                    <p>Time : <span>14.30 - 16.00</span></p>
+                                                    <h6>Night Market</h6>
                                                 </div>
                                             </div>
                                             <!-- Single Schedule Info -->
                                             <div class="schedule-time-place">
-                                                <p><i class="zmdi zmdi-time"></i> 12-14 Jan 2019</p>
-                                                <p><i class="zmdi zmdi-map"></i> SDoubleTree by Hilton Hotel , Kuala Lumpur , Malaysia</p>
+                                                <p><i class="zmdi zmdi-time"></i> Time : <span>19.00 – 21.00 </p>
                                             </div>
                                         </div>
 
-                                        <!-- Single Schedule Area -->
-                                        <div class="single-schedule-area d-flex flex-wrap justify-content-between align-items-center wow fadeInUp" data-wow-delay="300ms">
-                                            <!-- Single Schedule Thumb and Info -->
-                                            <div class="single-schedule-tumb-info d-flex align-items-center">
-                                                <!-- Single Schedule Thumb -->
-                                                <div class="single-schedule-tumb">
-                                                    <img src="{{ asset('img/user/bg-img/res.jpg') }}" alt="">
-                                                </div>
-                                                <!-- Single Schedule Info -->
-                                                <div class="single-schedule-info">
-                                                    <h6>Dinner</h6>
-                                                    <p>Time : <span>18.00 - 19.00</span></p>
-                                                </div>
-                                            </div>
-                                            <!-- Single Schedule Info -->
-                                            <div class="schedule-time-place">
-                                                <p><i class="zmdi zmdi-time"></i> 12-14 Jan 2019</p>
-                                                <p><i class="zmdi zmdi-map"></i> Hilton Hotel Restaurant, Kuala Lumpur , Malaysia</p>
-                                            </div>
-                                        </div>
-
-                                        <!-- Single Schedule Area -->
-                                        <div class="single-schedule-area d-flex flex-wrap justify-content-between align-items-center wow fadeInUp" data-wow-delay="300ms">
-                                            <!-- Single Schedule Thumb and Info -->
-                                            <div class="single-schedule-tumb-info d-flex align-items-center">
-                                                <!-- Single Schedule Thumb -->
-                                                <div class="single-schedule-tumb">
-                                                    <img src="{{ asset('img/user/bg-img/hot.jpg') }}" alt="">
-                                                </div>
-                                                <!-- Single Schedule Info -->
-                                                <div class="single-schedule-info">
-                                                    <h6>Back to Hotel</h6>
-                                                    <p>Time : <span>19.00 - 19.30</span></p>
-                                                </div>
-                                            </div>
-                                            <!-- Single Schedule Info -->
-                                            <div class="schedule-time-place">
-                                                <p><i class="zmdi zmdi-time"></i> 12-14 Jan 2019</p>
-                                                <p><i class="zmdi zmdi-map"></i> SDoubleTree by Hilton Hotel , Kuala Lumpur , Malaysia</p>
-                                            </div>
-                                        </div>
 
                                         <!-- Single Schedule Area -->
                                         <div class="single-schedule-area d-flex flex-wrap justify-content-between align-items-center wow fadeInUp" data-wow-delay="300ms">
@@ -550,13 +445,11 @@
                                                 <!-- Single Schedule Info -->
                                                 <div class="single-schedule-info">
                                                     <h6>Rest</h6>
-                                                    <p>Time : <span>21.00 - 05.30</span></p>
                                                 </div>
                                             </div>
                                             <!-- Single Schedule Info -->
                                             <div class="schedule-time-place">
-                                                <p><i class="zmdi zmdi-time"></i> 12-14 Jan 2019</p>
-                                                <p><i class="zmdi zmdi-map"></i> SDoubleTree by Hilton Hotel , Kuala Lumpur , Malaysia</p>
+                                                <p><i class="zmdi zmdi-time"></i> Time : <span>21.00</p>
                                             </div>
                                         </div>
                                     </div>                                        
@@ -580,13 +473,11 @@
                                                 <!-- Single Schedule Info -->
                                                 <div class="single-schedule-info">
                                                     <h6>Breakfast</h6>
-                                                    <p>Time : <span>07.00 - 08.00</p>
                                                 </div>
                                             </div>
                                             <!-- Single Schedule Info -->
                                             <div class="schedule-time-place">
-                                                <p><i class="zmdi zmdi-time"></i> 12-14 Jan 2019</p>
-                                                <p><i class="zmdi zmdi-map"></i> Hilton Hotel Restaurant, Kuala Lumpur , Malaysia</p>
+                                                <p><i class="zmdi zmdi-time"></i> Time : <span>07.00 - 08.00</p>
                                             </div>
                                         </div>
 
@@ -596,18 +487,16 @@
                                             <div class="single-schedule-tumb-info d-flex align-items-center">
                                                 <!-- Single Schedule Thumb -->
                                                 <div class="single-schedule-tumb">
-                                                    <img src="{{ asset('img/user/bg-img/sur.jpg') }}" alt="">
+                                                    <img src="{{ asset('img/user/bg-img/miss.jpg') }}" alt="">
                                                 </div>
                                                 <!-- Single Schedule Info -->
                                                 <div class="single-schedule-info">
-                                                    <h6>Malay Survival Challange</h6>
-                                                    <p>Time : <span>07.00 - 08.00</p>
+                                                    <h6>Social exchange mission</h6>
                                                 </div>
                                             </div>
                                             <!-- Single Schedule Info -->
                                             <div class="schedule-time-place">
-                                                <p><i class="zmdi zmdi-time"></i> 12-14 Jan 2019</p>
-                                                <p><i class="zmdi zmdi-map"></i> Pekan Sibu, Sibu, Sarawak, Malaysia</p>
+                                                <p><i class="zmdi zmdi-time"></i> Time : <span>08.00 – 16.00</p>
                                             </div>
                                         </div>
 
@@ -617,18 +506,16 @@
                                             <div class="single-schedule-tumb-info d-flex align-items-center">
                                                 <!-- Single Schedule Thumb -->
                                                 <div class="single-schedule-tumb">
-                                                    <img src="{{ asset('img/user/bg-img/psr.jpg') }}" alt="">
+                                                    <img src="{{ asset('img/user/bg-img/hal.jpg') }}" alt="">
                                                 </div>
                                                 <!-- Single Schedule Info -->
                                                 <div class="single-schedule-info">
                                                     <h6>Free Time</h6>
-                                                    <p>Time : <span>08.00 - 09.30</p>
                                                 </div>
                                             </div>
                                             <!-- Single Schedule Info -->
                                             <div class="schedule-time-place">
-                                                <p><i class="zmdi zmdi-time"></i> 12-14 Jan 2019</p>
-                                                <p><i class="zmdi zmdi-map"></i> Lorong Air Putih 86, Pahang, Malaysia</p>
+                                                <p><i class="zmdi zmdi-time"></i> Time : <span>16.00 - 19.00</p>
                                             </div>
                                         </div>
 
@@ -638,20 +525,19 @@
                                             <div class="single-schedule-tumb-info d-flex align-items-center">
                                                 <!-- Single Schedule Thumb -->
                                                 <div class="single-schedule-tumb">
-                                                    <img src="{{ asset('img/user/bg-img/cul.jpg') }}" alt="">
+                                                    <img src="{{ asset('img/user/bg-img/res.jpg') }}" alt="">
                                                 </div>
                                                 <!-- Single Schedule Info -->
                                                 <div class="single-schedule-info">
-                                                    <h6>Cultural Show & Awards Night</h6>
-                                                    <p>Time : <span>17.00 - 22.30</p>
+                                                    <h6>Gala Dinner</h6>
                                                 </div>
                                             </div>
                                             <!-- Single Schedule Info -->
                                             <div class="schedule-time-place">
-                                                <p><i class="zmdi zmdi-time"></i> 12-14 Jan 2019</p>
-                                                <p><i class="zmdi zmdi-map"></i>  Ministry Of Tourism, Arts & Culture, Putra Jaya, Malaysia</p>
+                                                <p><i class="zmdi zmdi-time"></i> Time : <span>19.00 – 21.00 </p>
                                             </div>
                                         </div>
+
 
                                         <!-- Single Schedule Area -->
                                         <div class="single-schedule-area d-flex flex-wrap justify-content-between align-items-center wow fadeInUp" data-wow-delay="300ms">
@@ -664,13 +550,11 @@
                                                 <!-- Single Schedule Info -->
                                                 <div class="single-schedule-info">
                                                     <h6>Rest</h6>
-                                                    <p>Time : <span>22.00 - 05.30</p>
                                                 </div>
                                             </div>
                                             <!-- Single Schedule Info -->
                                             <div class="schedule-time-place">
-                                                <p><i class="zmdi zmdi-time"></i> 12-14 Jan 2019</p>
-                                                <p><i class="zmdi zmdi-map"></i>  SDoubleTree by Hilton Hotel , Kuala Lumpur , Malaysia</p>
+                                                <p><i class="zmdi zmdi-time"></i> Time : <span>21.00</p>
                                             </div>
                                         </div>
                                     </div>
@@ -689,82 +573,16 @@
                                             <div class="single-schedule-tumb-info d-flex align-items-center">
                                                 <!-- Single Schedule Thumb -->
                                                 <div class="single-schedule-tumb">
-                                                    <img src="{{ asset('img/user/bg-img/hot.jpg') }}" alt="">
-                                                </div>
-                                                <!-- Single Schedule Info -->
-                                                <div class="single-schedule-info">
-                                                    <h6>Breakfast</h6>
-                                                    <p>Time : <span>06.00 - 07.00</p>
-                                                </div>
-                                            </div>
-                                            <!-- Single Schedule Info -->
-                                            <div class="schedule-time-place">
-                                                <p><i class="zmdi zmdi-time"></i> 12-14 Jan 2019</p>
-                                                <p><i class="zmdi zmdi-map"></i> Hilton Hotel Restaurant, Kuala Lumpur , Malaysia</p>
-                                            </div>
-                                        </div>
-
-                                        <!-- Single Schedule Area -->
-                                        <div class="single-schedule-area d-flex flex-wrap justify-content-between align-items-center wow fadeInUp" data-wow-delay="300ms">
-                                            <!-- Single Schedule Thumb and Info -->
-                                            <div class="single-schedule-tumb-info d-flex align-items-center">
-                                                <!-- Single Schedule Thumb -->
-                                                <div class="single-schedule-tumb">
-                                                    <img src="{{ asset('img/user/bg-img/tou.jpg') }}" alt="">
-                                                </div>
-                                                <!-- Single Schedule Info -->
-                                                <div class="single-schedule-info">
-                                                    <h6>KL City Tour</h6>
-                                                    <p>Time : <span>07.00 - 08.30</p>
-                                                </div>
-                                            </div>
-                                            <!-- Single Schedule Info -->
-                                            <div class="schedule-time-place">
-                                                <p><i class="zmdi zmdi-time"></i> 12-14 Jan 2019</p>
-                                                <p><i class="zmdi zmdi-map"></i> Kuala Lumpur Mall , Kuala Lumpur, Malaysia</p>
-                                            </div>
-                                        </div>
-
-                                        <!-- Single Schedule Area -->
-                                        <div class="single-schedule-area d-flex flex-wrap justify-content-between align-items-center wow fadeInUp" data-wow-delay="300ms">
-                                            <!-- Single Schedule Thumb and Info -->
-                                            <div class="single-schedule-tumb-info d-flex align-items-center">
-                                                <!-- Single Schedule Thumb -->
-                                                <div class="single-schedule-tumb">
                                                     <img src="{{ asset('img/user/bg-img/arp.jpg') }}" alt="">
                                                 </div>
                                                 <!-- Single Schedule Info -->
                                                 <div class="single-schedule-info">
                                                     <h6>Transfer To Airport</h6>
-                                                    <p>Time : <span>08.00 - 09.30</p>
                                                 </div>
                                             </div>
                                             <!-- Single Schedule Info -->
                                             <div class="schedule-time-place">
-                                                <p><i class="zmdi zmdi-time"></i> 12-14 Jan 2019</p>
-                                                <p><i class="zmdi zmdi-map"></i> Bandar Udara Internasional Kuala Lumpur , Selangor , Malaysia</p>
-                                            </div>
-                                        </div>
-
-                                        <!-- Single Schedule Area -->
-                                        <div class="single-schedule-area d-flex flex-wrap justify-content-between align-items-center wow fadeInUp" data-wow-delay="300ms">
-                                            <!-- Single Schedule Thumb and Info -->
-                                            <div class="single-schedule-tumb-info d-flex align-items-center">
-                                                <!-- Single Schedule Thumb -->
-                                                <div class="single-schedule-tumb">
-                                                    <img src="{{ asset('img/user/bg-img/ind.jpg') }}" alt="">
-                                                </div>
-                                                <!-- Single Schedule Info -->
-                                                <div class="single-schedule-info">
-                                                    <h6>Back To Indonesia</h6>
-                                                    <p>Time : <span>16.00</p>
-                                                </div>
-                                            </div>
-                                            <!-- Single Schedule Info -->
-                                            <div class="schedule-time-place">
-                                                <p><i class="zmdi zmdi-time"></i> 12-14 Jan 2019</p>
-                                                <p><i class="zmdi zmdi-map"></i> Soekarno-Hatta Airport, Jakarta, Indonesia</p>
-                                            </div>
+                                                <p><i class="zmdi zmdi-time"></i>Time : <span>07.00</p>
                                         </div>
                                     </div>
                                 </div>
@@ -804,7 +622,7 @@
                         <h2 class="ticket-price"><span></span>Free</h2>
                         <!-- Ticket Pricing Table Details -->
                         <div class="ticket-pricing-table-details">
-                            <p> Fully funded is a description for a pension plan that has sufficient assets to provide for all the accrued benefits it owes and therefore can meet its future obligations. In order to be fully funded, the plan must be able to make all the anticipated payments to both current and prospective pensioners </p>
+                            <p>Applicants with the best selection results will join the entire program for free. Fully funded is given to applicants who can provide maximum sustainable impact to the world after participating in the program. </p>
                         </div>
                     </div>
                 </div>
@@ -819,10 +637,10 @@
                         </div>
                         <br>
                         <h6>(5 Feb-22 Feb)</h6>
-                        <h2 class="ticket-price"><span>Rp.</span>2.000K</h2>
+                        <h2 class="ticket-price"><span>Rp.</span>2.000.000</h2>
                         <!-- Ticket Pricing Table Details -->
                         <div class="ticket-pricing-table-details">
-                            <p>Partial funding means funding less than the maximum percentage of eligible costs allowed under this chapter. Sample 2. Partial funding means funding less than the maximum department share allowed under this chapter. companies pay for healthcare expenses out-of-pocket as they are received</p>
+                            <p>Applicants with good ideas that have a good impact on their country of origin will be given the opportunity to get a partial funded program. with the hope that this program can help realize their bright ideas.</p>
                         </div>
                     </div>
                 </div>
@@ -837,10 +655,10 @@
                         </div>
                         <br>
                         <h6>(22 Feb-3 Mar)</h6>
-                        <h2 class="ticket-price"><span>Rp.</span>3.500K</h2>
+                        <h2 class="ticket-price"><span>Rp.</span>3.500.000</h2>
                         <!-- Ticket Pricing Table Details -->
                         <div class="ticket-pricing-table-details">
-                            <p>Self funding, otherwise known as self-insured insurance, is a plan in which the employer takes on the financial risk of providing certain healthcare benefits to his or her employees. With self funding insurance, companies pay for healthcare expenses out-of-pocket as they are received</p>
+                            <p>self-funded delegations are registrations for delegates without selection by the committee. the benefits obtained are the same as fully funded and partial funded delegations</p>
                         </div>
                     </div>
                 </div>
