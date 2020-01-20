@@ -37,7 +37,7 @@ class KakatooEmail extends Mailable
         );
 
         return $this->view('email.emailregistration')
-        ->from('admin@kakatoo.com')
+        ->from(env('MAIL_USERNAME'))
         ->subject('Kakatoo')
         ->with(
          [
