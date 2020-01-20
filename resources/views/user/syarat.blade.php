@@ -132,22 +132,25 @@
                                 <!--how To Get-->
                                 <div class="tab-pane fade" id="step-three" role="tabpanel" aria-labelledby="tuesday1-tab">
                                     <div class="single-tab-content" >
-                                        <ul>
-                                            <li class="zmdi zmdi-dot-circle-alt" style="font-size: 25px">  Fully Funded</li>
+                                        <ul class="list-unstyled">
+                                            <li class="media">
+                                                <div class="media-body">
+                                                <h5 class="mt-0 mb-1"> - Fully Funded</h5>
+                                                Applicants with the best selection results will join the entire program for free. Fully funded is given to applicants who can provide maximum sustainable impact to the world after participating in the program. 
+                                                </div>
+                                            </li>
                                             <br>
-                                            <p class="zmdi zmdi-quote" style="font-size: 20px"> Direct program is becoming delegates with any selection, but the students through all off test. <span class="zmdi zmdi-quote"></span></p>
+                                            <li class="media-body">
+                                                <h5 class="mt-0 mb-1"> - Partial Funded</h5>
+                                                Applicants with good ideas that have a good impact on their country of origin will be given the opportunity to get a partial funded program. with the hope that this program can help realize their bright ideas.
+                                                </div>
+                                            </li>
                                             <br>
-                                            <li></li>
-                                            <br>
-                                            <li class="zmdi zmdi-dot-circle-alt" style="font-size: 25px">  Partial Funded</li>
-                                            <br>
-                                            <p class="zmdi zmdi-quote" style="font-size: 20px"> Direct program is becoming delegates with any selection, but didn't through all off test. <span class="zmdi zmdi-quote"></span></p>
-                                            <br>
-                                            <li></li>
-                                            <br>
-                                            <li class="zmdi zmdi-dot-circle-alt" style="font-size: 25px">  Self Funded</li>
-                                            <br>
-                                            <p class="zmdi zmdi-quote" style="font-size: 20px"> Direct program is becoming delegates without any selection, just fill the online registration and pay for  the fee  program. <span class="zmdi zmdi-quote"></p>
+                                            <li class="media-body">
+                                                <h5 class="mt-0 mb-1"> - Self Funded</h5>
+                                                self-funded delegations are registrations for delegates without selection by the committee. the benefits obtained are the same as fully funded and partial funded delegations
+                                                </div>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
