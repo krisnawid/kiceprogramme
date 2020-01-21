@@ -79,7 +79,7 @@
                     <div class="col-12 col-md-6">
                         <div class="copywrite-text">
                             <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-KICE ©<script>document.write(new Date().getFullYear());</script> Kakatoo International Cultural & Education Exchange <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://www.instagram.com/otebesmart/?hl=id" target="_blank">OTEBE Smart</a>
+KICE ©<script>document.write(new Date().getFullYear());</script> Kakatoo International Culture & Education Exchange <br> by <a href="https://www.instagram.com/otebesmart/?hl=id" target="_blank">OTEBE Smart</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
                         </div>
                     </div>

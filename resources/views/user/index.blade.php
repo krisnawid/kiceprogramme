@@ -36,7 +36,7 @@
                     <div class="about-content-text mb-80">
                         <h6 class="wow fadeInUp" data-wow-delay="300ms">Program Description</h6>
                         <h3 class="wow fadeInUp" data-wow-delay="300ms">Program Goals</h3>
-                        <p class="wow fadeInUp" data-wow-delay="300ms">Goals of this program to provide delegates with insights into culture and education in other countries. With global insights, it is hoped that this program can inspire delegates who will become leaders in the future. in this program the delegation will practice soft skills, interact directly with local communities and provide solutions to problems or solutions to potential that can be developed. Delegates will be formed to be leaders who have an impact both on society and the environment.</p>
+                        <p class="wow fadeInUp" data-wow-delay="300ms">Goals of this program are to provide delegates with insights into culture and education in other countries.<br><br>KICE offers practice soft skills and interact directly with local communities by providing solutions for their problems or develop local communities potential. Delegates will be prepared to be leaders who have an impact both for global society and environment.</p>
                     </div>
                 </div>
 
@@ -368,7 +368,7 @@
                                                 </div>
                                                 <!-- Single Schedule Info -->
                                                 <div class="single-schedule-info">
-                                                    <h6>Visit Campus</h6>
+                                                    <h6>Campus Visit</h6>
                                                 </div>
                                             </div>
                                             <!-- Single Schedule Info -->

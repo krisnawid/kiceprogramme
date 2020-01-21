@@ -42,7 +42,7 @@
                                     <div class="single-tab-content">
                                         <ul class="list-group">
                                             <li class="list-group-item">1. Applicants are Indonesian citizens (applicants from other countries must contact the committee at hello@kiceprogramme.com)</li>
-                                            <li class="list-group-item">2. This program only accepts applicants aged between 16 to 24 years</li>
+                                            <li class="list-group-item">2. This program only accepts applicants aged between 16 to 25 years</li>
                                             <li class="list-group-item">3. This program includes accommodation for departing from the country of origin to return to his country, consumption, and place to stay</li>
                                             <li class="list-group-item">4. Passports and visas are the responsibility of each elected delegate, the committee does not cover the costs of making passports and visas.</li>
                                             <li class="list-group-item">5. Able to read, speak, and write English at least in the basic level</li>
