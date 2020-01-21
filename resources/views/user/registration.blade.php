@@ -105,10 +105,10 @@
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLongTitle">Pendaftaran Diproses</h5>
+            <h5 class="modal-title" id="exampleModalLongTitle">Registration Sending...</h5>
             </div>
             <div class="modal-body">
-                Tunggu sebentar pendaftaran anda sedang diperiksa
+                Please wait, your registration is sending
             </div>
         </div>
     </div>

@@ -221,9 +221,8 @@ table{
 	bottom: 0;
 	content: '';
 	width: 100%;
-	background: #000000;
 	z-index: -1;
-	opacity: .3;
+	opacity: .6;
 }
 .hero .icon{
 }
@@ -462,27 +461,13 @@ ul.social li{
           	<table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
           		<tr>
           			<td width="40%" class="logo" style="text-align: left;">
-			            <h1><a href="kakatoo.com" style="color: black">KICE</a></h1>
+			            <img src="https://kiceprogramme.com/img/user/core-img/logo.png" style="width:20%" a href="https://kiceprogramme.com/" style="color: black">
 			          </td>
           		</tr>
           	</table>
           </td>
 	      </tr><!-- end tr -->
-				<tr>
-          <td valign="middle" class="hero bg_white" style="background-image: url(https://www.zikanews.com/sites/default/files/styles/article/public/city-1283140.jpg); background-size: cover; height: 400px;">
-          	<div class="overlay"></div>
-            <table>
-            	<tr>
-            		<td>
-            			<div class="text" style="text-align: center; color: white">
-            				<h2>Kakatoo International</h2> 
-								<h2>Culture and Education Exchange</h2>
-            			</div>
-            		</td>
-            	</tr>
-            </table>
-          </td>
-	      </tr><!-- end tr -->
+				
           
           @yield('content')
 
@@ -490,14 +475,14 @@ ul.social li{
       </table>
       <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="margin: auto;">
         <tr>
-        	<td valign="middle" class="bg_black footer email-section">
+        	<td valign="middle" class="bg_white footer email-section">
         		<table>
             	<tr>
                 <td valign="top" width="33.333%">
                   <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
                     <tr>
-                      <td style="text-align: left; padding-right: 10px;background-color: black" >
-                      	<p style="color: white;margin-left: 10px">&copy; 2020 Kakatoo</p>
+                      <td style="text-align: left; padding-right: 10px;background-color: white" >
+                      	<p style="color: black;margin-left: 10px">&copy; 2020 Kakatoo</p>
                       </td>
                     </tr>
                   </table>
