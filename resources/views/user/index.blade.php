@@ -12,9 +12,11 @@
                         <div class="col-12">
                             <div class="welcome-text text-right">
                                 <h2 data-animation="fadeInUp" data-delay="300ms">Kakatoo International <br>Culture and Education Exchange</h2>
-                                <h6 data-animation="fadeInUp" data-delay="500ms">Kuala Lumpur, Malaysia</h6>
+                                <h6 data-animation="fadeInUp" style="margin-bottom:0;" data-delay="500ms">Kuala Lumpur, Malaysia</h6><br>
+                                <h6  style="margin-bottom:0;"> 22 - 25 June 2020 </h6><br>
+                                <h6> Last Registration 28 February 2020</h6>
                                 <div class="hero-btn-group" data-animation="fadeInUp" data-delay="700ms">
-                                    <a href="#program" class="btn confer-btn">More Information <i class="zmdi zmdi-long-arrow-right"></i></a>
+                                    <a href="/joinus" class="btn confer-btn"> Register <i class="zmdi zmdi-long-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -35,7 +37,6 @@
                         <h6 class="wow fadeInUp" data-wow-delay="300ms">Program Description</h6>
                         <h3 class="wow fadeInUp" data-wow-delay="300ms">Program Goals</h3>
                         <p class="wow fadeInUp" data-wow-delay="300ms">Goals of this program to provide delegates with insights into culture and education in other countries. With global insights, it is hoped that this program can inspire delegates who will become leaders in the future. in this program the delegation will practice soft skills, interact directly with local communities and provide solutions to problems or solutions to potential that can be developed. Delegates will be formed to be leaders who have an impact both on society and the environment.</p>
-                        <a href="/joinus" class="btn confer-btn mt-50 wow fadeInUp" data-wow-delay="300ms">Join Us <i class="zmdi zmdi-long-arrow-right"></i></a>
                     </div>
                 </div>
 
@@ -637,7 +638,7 @@
                         </div>
                         <br>
                         <h6>(5 Feb-22 Feb)</h6>
-                        <h2 class="ticket-price"><span>Rp.</span>2.000.000</h2>
+                        <h2 class="ticket-price"><span>Rp.</span>2.000K</h2>
                         <!-- Ticket Pricing Table Details -->
                         <div class="ticket-pricing-table-details">
                             <p>Applicants with good ideas that have a good impact on their country of origin will be given the opportunity to get a partial funded program. with the hope that this program can help realize their bright ideas.</p>
@@ -655,7 +656,7 @@
                         </div>
                         <br>
                         <h6>(22 Feb-3 Mar)</h6>
-                        <h2 class="ticket-price"><span>Rp.</span>3.500.000</h2>
+                        <h2 class="ticket-price"><span>Rp.</span>3.500K</h2>
                         <!-- Ticket Pricing Table Details -->
                         <div class="ticket-pricing-table-details">
                             <p>self-funded delegations are registrations for delegates without selection by the committee. the benefits obtained are the same as fully funded and partial funded delegations</p>
