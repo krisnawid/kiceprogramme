@@ -75,14 +75,16 @@
                                     <!-- Form Group -->
                                     <div class="col-12 col-lg-6">
                                         <div class="form-group">
-                                            <label>Bukti Pembayaran</label>
+                                            <label>Proof Of Payment</label>
+                                            <br>
+                                            <small style="margin-left:8px; color:grey">*Look At The Procedure</small>
                                             <input type="file" class="form-control mb-30" name="buktiPembayaran" style="border-bottom:0px">
                                         </div>
                                     </div>
                                     <!-- Form Group -->
                                     <div class="col-12 col-lg-6">
                                         <div class="form-group">
-                                            <label>Foto Diri</label>
+                                            <label>Photo Profile</label>
                                             <input type="file" class="form-control mb-30" name="fotoDiri"  style="border-bottom:0px">
                                         </div>
                                     </div>

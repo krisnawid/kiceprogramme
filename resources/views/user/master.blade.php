@@ -54,7 +54,7 @@
                         <!-- Nav Start -->
                         <div class="classynav">
                             <ul id="nav">
-                                <li class="active"><a href="/">Home</a></li>
+                                <li><a href="/">Home</a></li>
                                 <li><a href="/user/syarat">Procedure</a></li>
                                 <li><a href="/joinus">Register</a></li>
                             </ul>
