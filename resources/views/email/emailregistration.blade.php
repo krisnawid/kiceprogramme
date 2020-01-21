@@ -21,7 +21,7 @@
 		<div class="heading-section heading-section-dark">
 		  <h2 style="color:white">Received !!</h2>
 		  <p style="color: white">Hi 
-			{{-- {{$data['namaDepan']}} {{$data['namaBelakang']}}, --}}
+			{{$data['namaDepan']}} {{$data['namaBelakang']}},
 			we have received your data,
 			then upload the twibbon that we provide at the following link:</p><a href="https://drive.google.com/open?id=1p3nF5toQSHG1utB06Po3DCd8OSje5CmA" style="color: blueviolet; text-decoration: underline; font-size: large">Here</a><p style="color: white">
 			Download and upload twibon to your Instagram account with your creative text with the <a href="https://www.instagram.com/kiceprogramme/" style="color: indigo"> @kiceprogramme </a>tag and follow the Instagram account KICEProgramme to get the latest info from us</p>

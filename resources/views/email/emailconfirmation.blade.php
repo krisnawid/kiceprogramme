@@ -22,7 +22,7 @@
 		<div class="heading-section heading-section-dark">
 		  <h2 style="color:white">Confirmed !!</h2>
 		  <p style="color: white">Hi 
-			{{-- {{$data['namaDepan']}} {{$data['namaBelakang']}}, --}}
+			{{$data['namaDepan']}} {{$data['namaBelakang']}},
 			congratulations! We have validated the registration. For those of you who register as a self funded program, please fill out the registration form below : <a href="https://docs.google.com/forms/d/e/1FAIpQLScznQmtEigyH8zOiM_X5C6vQiwbz9oyK9A880iAAVjYLajzGg/viewform" style="color: blueviolet; text-decoration: underline;">Self funded form</a><br>
 			For those of you who are taking part in a fully funded and partial funded program, please prepare an essay that contains your bright ideas and your future targets as future leaders. collect the essay in the following link: <br>
 			<a href="https://forms.gle/zXtrmCmigUKAMYVp7" style="color: blueviolet; text-decoration: underline;">Fully funded and partial funded form</a><br>
