@@ -13,6 +13,7 @@
 
 Route::get('/', function () { return view('user.index'); });
 Route::get('/joinus', 'UserController@registration');
+Route::get('/congratulation', 'UserController@congratulation');
 Route::post('/joinus/proses', 'UserController@prosesregistration');
 Route::get('/user/syarat', function () { return view('user.syarat'); });
 
@@ -34,3 +35,6 @@ Route::post('/loginadmin', 'AdminController@postLogin')->middleware('guest');
 Route::get('/admin', 'AdminController@index')->name('admin')->middleware('auth:admin');
 
 Route::get('/logout', 'AdminController@logout')->middleware('auth:admin')->name('logoutAdmin');
+
+//tes email
+Route::get('/emailkonfirm', function () { return view('email.emailconfirmation'); });

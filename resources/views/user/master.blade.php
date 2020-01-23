@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <meta charset="UTF-8">
@@ -12,7 +11,8 @@
 
     <!-- Favicon -->
     <link rel="icon" href="{{ asset('img/admin/logo/logo.png') }}"> 
-
+    <link rel="shortcut icon" href="{{ asset('img/admin/logo/logo.png') }}">
+    
     <!-- Stylesheet -->
     <link rel="stylesheet" href="{{ asset('style.css') }}">
 

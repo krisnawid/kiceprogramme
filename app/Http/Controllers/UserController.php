@@ -16,6 +16,12 @@ class UserController extends Controller
         return view('user.registration');
     }
 
+    public function congratulation()
+    {
+        # code...
+        return view('user.congratulation');
+    }
+
     public function prosesregistration(Request $request)
     {
         # code...
@@ -55,6 +61,8 @@ class UserController extends Controller
 
         Mail::to($request->email)->send(new KakatooEmail($emailData));
 
-        return redirect('/joinus')->with(['success' => 'Registration Successful']);
+        // return redirect('/joinus')->with(['success' => 'Registration Successful']);
+        return redirect('/congratulation')->with(['success' => 'Registration Successful']);
+
     }
 }

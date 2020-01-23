@@ -14,7 +14,7 @@ class AdminSeeder extends Seeder
         //
         DB::table('admin')->insert([
             'name' => 'Admin Kice Official',
-            'username' => 'kice',
+            'username' => 'hello@kiceprogramme.com',
             'password' => bcrypt('bismillah')
         ]);
     }
