@@ -13,7 +13,6 @@
 
 Route::get('/', function () { return view('user.index'); });
 Route::get('/joinus', 'UserController@registration');
-Route::get('/congratulation', 'UserController@congratulation');
 Route::post('/joinus/proses', 'UserController@prosesregistration');
 Route::get('/user/syarat', function () { return view('user.syarat'); });
 
