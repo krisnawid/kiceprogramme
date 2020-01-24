@@ -78,14 +78,14 @@
                                             <label>Proof Of Payment</label>
                                             <br>
                                             <small style="margin-left:8px; color:grey">*Look At The Procedure</small>
-                                            <input type="file" class="form-control mb-30" name="buktiPembayaran" style="border-bottom:0px">
+                                            <input type="file" class="form-control mb-30" name="proofOfPayment" style="border-bottom:0px">
                                         </div>
                                     </div>
                                     <!-- Form Group -->
                                     <div class="col-12 col-lg-6">
                                         <div class="form-group">
                                             <label>Photo Profile</label>
-                                            <input type="file" class="form-control mb-30" name="fotoDiri"  style="border-bottom:0px">
+                                            <input type="file" class="form-control mb-30" name="photoProfil"  style="border-bottom:0px">
                                         </div>
                                     </div>
 
