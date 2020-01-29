@@ -31,12 +31,12 @@ class UserController extends Controller
             'email' => 'required|email|unique:registration,email',
             'whatsappNumber' => 'required|numeric',
             'address' => 'required',
-            'buktiPembayaran' => 'file|image|mimes:jpeg,png,jpg|max:2048|required',
-            'fotoDiri' => 'file|image|mimes:jpeg,png,jpg|max:2048|required'
+            'proofOfPayment' => 'file|image|mimes:jpeg,png,jpg|max:2048|required',
+            'photoProfil' => 'file|image|mimes:jpeg,png,jpg|max:2048|required'
         ]);
 
-        $filePembayaran = $request->file('buktiPembayaran');
-        $fileFoto = $request->file('fotoDiri');
+        $filePembayaran = $request->file('proofOfPayment');
+        $fileFoto = $request->file('photoProfil');
  
         $namaFilePembayaran = time()."_".$filePembayaran->getClientOriginalName();
         $namaFileFoto = time()."_".$fileFoto->getClientOriginalName();

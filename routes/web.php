@@ -14,7 +14,12 @@
 Route::get('/', function () { return view('user.index'); });
 Route::get('/joinus', 'UserController@registration');
 Route::post('/joinus/proses', 'UserController@prosesregistration');
-Route::get('/user/syarat', function () { return view('user.syarat'); });
+Route::get('/joinus/proses', 'UserController@registration');
+
+//tes page
+// Route::get('/congratulation', function () { return view('user.congratulation'); });
+
+Route::get('/procedure', function () { return view('user.syarat'); });
 
 Route::get('/admin/data-tables', 'AdminController@dataregistration')->middleware('auth:admin');
 Route::get('/admin/{id}/detaildatauser', 'AdminController@detaildatauser')->middleware('auth:admin');

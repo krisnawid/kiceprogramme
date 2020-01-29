@@ -1,12 +1,12 @@
 <html>
-<head>
-  <meta charset="utf-8">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
   <link href="{{ asset('img/admin/logo/logo.png') }}" rel="icon">
-  <title>RuangAdmin - Login</title>
+  <title>KICE Admin - Login</title>
   <link href="{{ asset('vendor/admin/fontawesome-free/css/all.min.css') }}" rel="stylesheet" type="text/css">
   <link href="{{ asset('vendor/admin/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet" type="text/css">
   <link href="{{ asset('css/admin/ruang-admin.min.css') }}" rel="stylesheet">

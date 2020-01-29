@@ -38,7 +38,7 @@ class KakatooEmail extends Mailable
 
         return $this->view('email.emailregistration')
         ->from(env('MAIL_USERNAME'))
-        ->subject('Kakatoo')
+        ->subject('Kakatoo Registration')
         ->with(
          [
              'data' => $data

@@ -1,18 +1,22 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="description" content="">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    
+    <meta name="description" content="Kice programme is a student exchange program from indonesia. kice has 3 programs: fully funded, partial funded, self funded. come to join with us.">
+    <meta name="keywords" content="kiceprogramme">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="GVw8GyPzsMjaxlNHha2RdxsA-HpxP5UkR-RfOuKvb58" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Title -->
     <title>KICE - Kakatoo International Culture and Education Exchange</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="{{ asset('img/admin/logo/logo.png') }}"> 
-    <link rel="shortcut icon" href="{{ asset('img/admin/logo/logo.png') }}">
-    
+    <link rel="icon" href="{{ asset('img/favicon.ico') }}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('img/favicon.ico') }}">
+    <link rel="mask-icon" type="" href="{{ asset('img/favicon.ico') }}" color="#111" />
+
     <!-- Stylesheet -->
     <link rel="stylesheet" href="{{ asset('style.css') }}">
 
@@ -55,7 +59,7 @@
                         <div class="classynav">
                             <ul id="nav">
                                 <li><a href="/">Home</a></li>
-                                <li><a href="/user/syarat">Procedure</a></li>
+                                <li><a href="/procedure">Procedure</a></li>
                                 <li><a href="/joinus">Register</a></li>
                             </ul>
                         </div>
@@ -79,7 +83,7 @@
                     <div class="col-12 col-md-6">
                         <div class="copywrite-text">
                             <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-KICE ©<script>document.write(new Date().getFullYear());</script> Kakatoo International Culture & Education Exchange <br> by <a href="https://www.instagram.com/otebesmart/?hl=id" target="_blank">OTEBE Smart</a>
+KICE ©<script>document.write(new Date().getFullYear());</script> Kakatoo International Culture & Education Exchange <br> by <a href="#" target="_blank">OTEBE Smart</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
                         </div>
                     </div>

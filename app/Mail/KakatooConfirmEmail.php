@@ -36,7 +36,7 @@ class KakatooConfirmEmail extends Mailable
 
         return $this->view('email.emailconfirmation')
         ->from(env('MAIL_USERNAME'))
-        ->subject('Kakatoo')
+        ->subject('Kakatoo Registration')
         ->with(
         [
             'data' => $data

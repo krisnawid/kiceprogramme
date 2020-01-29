@@ -619,7 +619,6 @@
                             <img src="{{ asset('img/user/core-img/p1.png') }}" alt="">
                         </div>
                         <br>
-                        <h6>(16 Jan – 4 Feb)</h6>
                         <h2 class="ticket-price"><span></span>Free</h2>
                         <!-- Ticket Pricing Table Details -->
                         <div class="ticket-pricing-table-details">
@@ -637,7 +636,6 @@
                             <img src="{{ asset('img/user/core-img/p2.png') }}" alt="">
                         </div>
                         <br>
-                        <h6>(5 Feb-22 Feb)</h6>
                         <h2 class="ticket-price"><span>Rp.</span>2.000K</h2>
                         <!-- Ticket Pricing Table Details -->
                         <div class="ticket-pricing-table-details">
@@ -655,7 +653,6 @@
                             <img src="{{ asset('img/user/core-img/p3.png') }}" alt="">
                         </div>
                         <br>
-                        <h6>(22 Feb-3 Mar)</h6>
                         <h2 class="ticket-price"><span>Rp.</span>3.500K</h2>
                         <!-- Ticket Pricing Table Details -->
                         <div class="ticket-pricing-table-details">
@@ -666,7 +663,7 @@
                 <div class="col-12 col-md-6 col-lg-4"></div>
 
                 <div class="col-12 col-md-6 col-lg-4" style="text-align: center">
-                    <a href="/user/syarat" class="btn register-btn">How To Get It ? <i class="zmdi zmdi-long-arrow-right"></i></a>
+                    <a href="/procedure" class="btn register-btn">How To Get It ? <i class="zmdi zmdi-long-arrow-right"></i></a>
                 </div>
 
                 <div class="col-12 col-md-6 col-lg-4"><div>
