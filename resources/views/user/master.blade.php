@@ -61,9 +61,19 @@
                                 <li><a href="/{{app()->getLocale()}}">Home</a></li>
                                 <li><a href="/{{app()->getLocale()}}/procedure">{{ __('Procedure')}}</a></li>
                                 <li><a href="/{{app()->getLocale()}}/joinus">{{ __('Register')}}</a></li>
-                                <li><a href="/idn/{{Request::segment(2)}}">IDN</a></li>
-                                <li><a href="/en/{{Request::segment(2)}}">EN</a></li>
                             </ul>
+
+                            <!-- Language -->
+                            <div class="classynav" style="margin-bottom: 40px;">
+                                <ul id="nav">
+                                    <li><a href="#" style="font-size: 75%;">{{ __('Language')}}</a>
+                                        <ul class="dropdown">
+                                            <li><a href="/idn/{{Request::segment(2)}}" style="font-size: 75%;">Indonesia <img src="{{ asset('img/user/bg-img/indonesia.png') }}" style="width:30%;height:50%;border-radius:20px;background: #000000;padding: 0.5px; " alt=""></a></li>
+                                            <li><a href="/en/{{Request::segment(2)}}" style="font-size: 75%;">English <img src="{{ asset('img/user/bg-img/english.png') }}" style="width:30%;height:50%;border-radius:20px;background: #000000;padding: 0.5px;" alt=""></a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                         <!-- Nav End -->
                     </div>

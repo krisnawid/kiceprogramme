@@ -390,6 +390,25 @@
                                                 </div>
                                                 <!-- Single Schedule Info -->
                                                 <div class="single-schedule-info">
+                                                    <h6> {{ __('Discuss campus community') }}</h6>
+                                                </div>
+                                            </div>
+                                            <!-- Single Schedule Info -->
+                                            <div class="schedule-time-place">
+                                                <p><i class="zmdi zmdi-time"></i>{{ __('Time') }} : <span>11.00 - 13.00</p>
+                                            </div>
+                                        </div>
+
+                                        <!-- Single Schedule Area -->
+                                        <div class="single-schedule-area d-flex flex-wrap justify-content-between align-items-center wow fadeInUp" data-wow-delay="300ms">
+                                            <!-- Single Schedule Thumb and Info -->
+                                            <div class="single-schedule-tumb-info d-flex align-items-center">
+                                                <!-- Single Schedule Thumb -->
+                                                <div class="single-schedule-tumb">
+                                                    <img src="{{ asset('img/user/bg-img/orp.jpg') }}" alt="">
+                                                </div>
+                                                <!-- Single Schedule Info -->
+                                                <div class="single-schedule-info">
                                                     <h6> {{ __('Discussion with campus community') }}</h6>
                                                 </div>
                                             </div>
@@ -424,7 +443,7 @@
                                             <div class="single-schedule-tumb-info d-flex align-items-center">
                                                 <!-- Single Schedule Thumb -->
                                                 <div class="single-schedule-tumb">
-                                                    <img src="{{ asset('img/user/bg-img/hal.jpg') }}" alt="">
+                                                    <img src="{{ asset('img/user/bg-img/pas.jpg') }}" alt="">
                                                 </div>
                                                 <!-- Single Schedule Info -->
                                                 <div class="single-schedule-info">
