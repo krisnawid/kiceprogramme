@@ -9,7 +9,7 @@
             <!-- Heading -->
             <div class="col-12">
                 <div class="section-heading-2 text-center wow fadeInUp" data-wow-delay="300ms" style="margin-top: 50px;">
-                    <h4>Join Us</h4>
+                    <h4>{{ __('Join Us')}}</h4>
                 </div>
             </div>
         </div>
@@ -31,12 +31,6 @@
                         </div>
                         @endif
 
-                        @if ($message = Session::get('success'))
-                            <div class="alert alert-success alert-block">
-                                {{ $message }}
-                            </div>
-                        @endif
-
                         <form action="/joinus/proses" method="post" id="main_contact_form" enctype="multipart/form-data">
                             {{ csrf_field() }}
                             <div class="contact_input_area">
@@ -45,13 +39,13 @@
                                     <!-- Form Group -->
                                     <div class="col-12 col-lg-6">
                                         <div class="form-group">
-                                            <input type="text" class="form-control mb-30" name="firstName" placeholder="First Name" value="{{ old('firstName') }}">
+                                            <input type="text" class="form-control mb-30" name="firstName" placeholder="{{ __('First Name')}}" value="{{ old('firstName') }}">
                                         </div>
                                     </div>
                                     <!-- Form Group -->
                                     <div class="col-12 col-lg-6">
                                         <div class="form-group">
-                                            <input type="text" class="form-control mb-30" name="lastName" placeholder="Last Name" value="{{ old('lastName') }}">
+                                            <input type="text" class="form-control mb-30" name="lastName" placeholder="{{ __('Last Name')}}" value="{{ old('lastName') }}">
                                         </div>
                                     </div>
                                     <!-- Form Group -->
@@ -63,35 +57,35 @@
                                     <!-- Form Group -->
                                     <div class="col-12 col-lg-6">
                                         <div class="form-group">
-                                            <input type="text" class="form-control mb-30" name="whatsappNumber" placeholder="Whatsapp Number" value="{{ old('whatsappNumber') }}">
+                                            <input type="text" class="form-control mb-30" name="whatsappNumber" placeholder="{{ __('Whatsapp Number')}}" value="{{ old('whatsappNumber') }}">
                                         </div>
                                     </div>
                                     <!-- Form Group -->
                                     <div class="col-12 col-lg-12">
                                         <div class="form-group">
-                                            <input type="text" class="form-control mb-30" name="address" placeholder="Your Address" value="{{ old('address') }}">
+                                            <input type="text" class="form-control mb-30" name="address" placeholder="{{ __('Your Adress')}}" value="{{ old('address') }}">
                                         </div>
                                     </div>
                                     <!-- Form Group -->
                                     <div class="col-12 col-lg-6">
                                         <div class="form-group">
-                                            <label>Proof Of Payment</label>
+                                            <label>{{ __('Proof of Payment')}}</label>
                                             <br>
-                                            <small style="margin-left:8px; color:grey">*Look At The Procedure</small>
+                                            <small style="margin-left:8px; color:grey">*{{ __('Look At The Procedure') }}</small>
                                             <input type="file" class="form-control mb-30" name="proofOfPayment" style="border-bottom:0px">
                                         </div>
                                     </div>
                                     <!-- Form Group -->
                                     <div class="col-12 col-lg-6">
                                         <div class="form-group">
-                                            <label>Photo Profile</label>
+                                            <label>{{ __('Photo Profile')}}</label>
                                             <input type="file" class="form-control mb-30" name="photoProfil"  style="border-bottom:0px">
                                         </div>
                                     </div>
 
                                     <!-- Button -->
                                     <div class="col-12">
-                                        <button type="submit" class="btn confer-btn" data-toggle="modal" data-target="#modalProses">Send<i class="zmdi zmdi-long-arrow-right"></i>
+                                        <button type="submit" class="btn confer-btn" data-toggle="modal" data-target="#modalProses">{{ __('Send')}}<i class="zmdi zmdi-long-arrow-right"></i>
                                     </div>
                                 </div>
                             </div>

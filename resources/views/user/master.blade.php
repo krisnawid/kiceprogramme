@@ -58,9 +58,11 @@
                         <!-- Nav Start -->
                         <div class="classynav">
                             <ul id="nav">
-                                <li><a href="/">Home</a></li>
-                                <li><a href="/procedure">Procedure</a></li>
-                                <li><a href="/joinus">Register</a></li>
+                                <li><a href="/{{app()->getLocale()}}">Home</a></li>
+                                <li><a href="/{{app()->getLocale()}}/procedure">{{ __('Procedure')}}</a></li>
+                                <li><a href="/{{app()->getLocale()}}/joinus">{{ __('Register')}}</a></li>
+                                <li><a href="/idn/{{Request::segment(2)}}">IDN</a></li>
+                                <li><a href="/en/{{Request::segment(2)}}">EN</a></li>
                             </ul>
                         </div>
                         <!-- Nav End -->

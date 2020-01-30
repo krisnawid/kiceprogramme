@@ -11,15 +11,17 @@
 |
 */
 
-Route::get('/', function () { return view('user.index'); });
-Route::get('/joinus', 'UserController@registration');
-Route::post('/joinus/proses', 'UserController@prosesregistration');
-Route::get('/joinus/proses', 'UserController@registration');
+Route::redirect('/', '/en');
 
-//tes page
-// Route::get('/congratulation', function () { return view('user.congratulation'); });
+Route::group(['prefix' => '{language}'], function () {
+    Route::get('/', function () { return view('user.index'); });
+    Route::get('/joinus', 'UserController@registration');
+    Route::post('/joinus/proses', 'UserController@prosesregistration');
+    Route::get('/joinus/proses', 'UserController@registration');
+    
+    Route::get('/procedure', function () { return view('user.syarat'); });
+});
 
-Route::get('/procedure', function () { return view('user.syarat'); });
 
 Route::get('/admin/data-tables', 'AdminController@dataregistration')->middleware('auth:admin');
 Route::get('/admin/{id}/detaildatauser', 'AdminController@detaildatauser')->middleware('auth:admin');
