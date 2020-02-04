@@ -16,7 +16,7 @@
                                 <h6  style="margin-bottom:0;"> 22 - 25 {{ __('June')}} 2020 </h6><br>
                                 <h6> {{ __('Last Registration') }} 28 {{ __('February') }} 2020</h6>
                                 <div class="hero-btn-group" data-animation="fadeInUp" data-delay="700ms">
-                                    <a href="/joinus" class="btn confer-btn"> {{ __('Register') }} <i class="zmdi zmdi-long-arrow-right"></i></a>
+                                    <a href="/{{app()->getLocale()}}/joinus" class="btn confer-btn"> {{ __('Register') }} <i class="zmdi zmdi-long-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -186,7 +186,7 @@
                 <div class="col-12 col-md-6 col-lg-4"></div>
 
                 <div class="col-12 col-md-6 col-lg-4" style="text-align: center">
-                    <a href="/joinus" class="btn register-btn">{{ __('Register')}} <i class="zmdi zmdi-long-arrow-right"></i></a>
+                    <a href="/{{app()->getLocale()}}/joinus" class="btn register-btn">{{ __('Register')}} <i class="zmdi zmdi-long-arrow-right"></i></a>
                 </div>
 
                 <div class="col-12 col-md-6 col-lg-4"><div>
@@ -372,25 +372,6 @@
                                                 <!-- Single Schedule Info -->
                                                 <div class="single-schedule-info">
                                                     <h6>{{ __('Campus Visit') }}</h6>
-                                                </div>
-                                            </div>
-                                            <!-- Single Schedule Info -->
-                                            <div class="schedule-time-place">
-                                                <p><i class="zmdi zmdi-time"></i>{{ __('Time') }} : <span>11.00 - 13.00</p>
-                                            </div>
-                                        </div>
-
-                                        <!-- Single Schedule Area -->
-                                        <div class="single-schedule-area d-flex flex-wrap justify-content-between align-items-center wow fadeInUp" data-wow-delay="300ms">
-                                            <!-- Single Schedule Thumb and Info -->
-                                            <div class="single-schedule-tumb-info d-flex align-items-center">
-                                                <!-- Single Schedule Thumb -->
-                                                <div class="single-schedule-tumb">
-                                                    <img src="{{ asset('img/user/bg-img/orp.jpg') }}" alt="">
-                                                </div>
-                                                <!-- Single Schedule Info -->
-                                                <div class="single-schedule-info">
-                                                    <h6> {{ __('Discuss campus community') }}</h6>
                                                 </div>
                                             </div>
                                             <!-- Single Schedule Info -->
@@ -658,7 +639,7 @@
                             <img src="{{ asset('img/user/core-img/p2.png') }}" alt="">
                         </div>
                         <br>
-                        <h2 class="ticket-price"><span>Rp.</span>2.000K</h2>
+                        <h2 class="ticket-price"><span>Rp.</span>2.500K</h2>
                         <!-- Ticket Pricing Table Details -->
                         <div class="ticket-pricing-table-details">
                             <p>{{ __('Applicants with good ideas that have a good impact on their country of origin will be given the opportunity to get a partial funded program. with the hope that this program can help realize their bright ideas.') }}</p>
@@ -685,7 +666,7 @@
                 <div class="col-12 col-md-6 col-lg-4"></div>
 
                 <div class="col-12 col-md-6 col-lg-4" style="text-align: center">
-                    <a href="/procedure" class="btn register-btn">{{ __('How To Get It')}} ? <i class="zmdi zmdi-long-arrow-right"></i></a>
+                    <a href="/{{app()->getLocale()}}/procedure" class="btn register-btn">{{ __('How To Get It')}} ? <i class="zmdi zmdi-long-arrow-right"></i></a>
                 </div>
 
                 <div class="col-12 col-md-6 col-lg-4"><div>

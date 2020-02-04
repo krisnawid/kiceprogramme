@@ -31,7 +31,7 @@
                         </div>
                         @endif
 
-                        <form action="/joinus/proses" method="post" id="main_contact_form" enctype="multipart/form-data">
+                        <form action="/{{app()->getLocale()}}/joinus/proses" method="post" id="main_contact_form" enctype="multipart/form-data">
                             {{ csrf_field() }}
                             <div class="contact_input_area">
                                 <div id="success_fail_info"></div>
