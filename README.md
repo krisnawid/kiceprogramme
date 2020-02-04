@@ -24,7 +24,7 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 
 ## Resource Views dan Template
 
-Pada Project ini, dapat kita lihat segala sesuatu yang berhubungan dengan **[Front End]** dapat ditemukan pada bagian **[resource/view]**. Pada halaman tersebut pada folder /user atau /admin yang terdapat pada **[resource/view]** mempunyai **[master.blade]** sendiri, agar header dan footer tetap sama, tinggal kita menambah konten pada halaman baru yang kita buat atau yang sudah ada. kemudian untuk assets gambar, css, js. dapat kita lihat pada **[/public]**. 
+Pada Project ini, dapat kita lihat segala sesuatu yang berhubungan dengan **[Front End]** dapat ditemukan pada bagian **[resource/view]**. Pada halaman tersebut pada folder /user atau /admin yang terdapat pada **[resource/view]** mempunyai **[master.blade]** sendiri, agar header dan footer tetap sama, tinggal kita menambah konten pada halaman baru yang kita buat atau yang sudah ada. kemudian untuk assets gambar, css, js. dapat kita lihat pada **[/public]**. kemudian terdapat folder **[views/email]** yang merupakan tampilan notifikasi email pada form register.
 
 Kemudian sesuatu yang berhubungan dengan Backend sebagain besar terdapat pada **[app]** entah itu **[app/Http]**, **[app/Mail]**, etc :).
 
@@ -68,7 +68,7 @@ Beberapa langkah yang diperlukan untuk melakukan clone project dapat dilihat pad
 
 ## Switch Language
 
-Fitur Switch language dapat kita lihat pada **[resources/lang]** pada idn.json, untuk sementara hanya bisa mempunyai 2 bahasa. Dapat kita lihat pada **[idn.json]**
+Fitur Switch language dapat kita lihat pada **[resources/lang]** pada idn.json, untuk sementara hanya bisa mempunyai 2 bahasa. Dapat kita lihat pada **[idn.json]**. dapat kita lihat pada [resources/view] atau tampilan pada halaman web terdapat beberapa kalimat yang menggunakan format **[{{ __('example word')}}]**, pada format tersebut digunakan untuk melakukan switch language tinggal menyesuaikan pada **[idn.json]** sendiri.
 
 ## Security Vulnerabilities
 

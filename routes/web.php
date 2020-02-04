@@ -11,9 +11,13 @@
 |
 */
 
+#redirect halaman home denga menggunakan bahasa english
 Route::redirect('/', '/en');
+
+#redirect halaman admin agar mengarah pada login
 Route::redirect('/admin', '/admin/loginadmin');
 
+#grouping language untuk melakukan switch lenguage
 Route::group(['prefix' => '{language}'], function () {
     Route::get('/', function () { return view('user.index'); });
     Route::get('/joinus', 'UserController@registration');
@@ -25,6 +29,7 @@ Route::group(['prefix' => '{language}'], function () {
     Route::get('/procedure', function () { return view('user.syarat'); });
 });
 
+#grouping dengan menggunakan prefix admin
 Route::group(['prefix' => 'admin'], function(){
     Route::get('/data-tables', 'AdminController@dataregistration')->middleware('auth:admin');
     Route::get('{id}/detaildatauser', 'AdminController@detaildatauser')->middleware('auth:admin');
