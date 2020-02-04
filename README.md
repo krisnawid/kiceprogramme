@@ -30,8 +30,8 @@ Kemudian sesuatu yang berhubungan dengan Backend sebagain besar terdapat pada **
 
 ## KICE Routing
 
-Beberapa Routing(Sedikit info tempat routing terdapat pada **[/routes/web.php]**) seperti halaman Home, Register, Prosedure dapat kita lihat pada Routing berikut.
-
+Beberapa Routing (Sedikit info tempat routing terdapat pada **[/routes/web.php]**) seperti halaman Home, Register, Prosedure dapat kita lihat pada Routing berikut.
+<!-- 
 - **[Halaman Home Dapat Kita Lihat Melalui ](https://vehikl.com/)**
 - **[Tighten Co.](https://tighten.co)**
 - **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
@@ -60,15 +60,15 @@ Beberapa Routing(Sedikit info tempat routing terdapat pada **[/routes/web.php]**
 - [Abdel Elrafa](https://abdelelrafa.com)
 - [Hyper Host](https://hyper.host)
 - [Appoly](https://www.appoly.co.uk)
-- [OP.GG](https://op.gg)
+- [OP.GG](https://op.gg) -->
 
-## Contributing
+## Clone Project
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Beberapa langkah yang diperlukan untuk melakukan clone project dapat dilihat pada link berikut **[here](https://stackoverflow.com/questions/38602321/cloning-laravel-project-from-github)**
 
-## Code of Conduct
+## Switch Language
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+Fitur Switch language dapat kita lihat pada **[resources/lang]** pada idn.json, untuk sementara hanya bisa mempunyai 2 bahasa. Dapat kita lihat pada **[idn.json]**
 
 ## Security Vulnerabilities
 
